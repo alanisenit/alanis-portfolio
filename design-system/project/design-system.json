@@ -1,0 +1,124 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-16T18:31:31Z"
+  },
+  "title": "Pop Nocturna",
+  "namespace": "PopNocturna",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Motivo",
+    "Trabajo",
+    "Retrato"
+  ],
+  "assetGroups": {
+    "Motivo": {
+      "name": "Motivo",
+      "tile": "s",
+      "order": [
+        "asterisco-rosa.svg",
+        "asterisco-miel.svg",
+        "asterisco-azul.svg",
+        "asterisco-verde.svg"
+      ],
+      "files": {
+        "asterisco-rosa.svg": {
+          "name": "asterisco-rosa.svg",
+          "blob": "69c0728f192adf9cebd9ca7b7986c002",
+          "size": 685,
+          "type": "image/svg+xml"
+        },
+        "asterisco-miel.svg": {
+          "name": "asterisco-miel.svg",
+          "blob": "e1094a292455f755d4ced1ef20155246",
+          "size": 685,
+          "type": "image/svg+xml"
+        },
+        "asterisco-azul.svg": {
+          "name": "asterisco-azul.svg",
+          "blob": "0b0b8ffad4ba01bc8d107be9611bbecb",
+          "size": 685,
+          "type": "image/svg+xml"
+        },
+        "asterisco-verde.svg": {
+          "name": "asterisco-verde.svg",
+          "blob": "df0612171abfa48bc941dd47906ee84d",
+          "size": 685,
+          "type": "image/svg+xml"
+        }
+      }
+    },
+    "Trabajo": {
+      "name": "Trabajo",
+      "tile": "m",
+      "order": [
+        "editorial-macbeth.jpg",
+        "social-century21-top-producer.jpg",
+        "branding-socohua-libreta.jpg",
+        "ilustracion-clean-world-2.jpg",
+        "fotomontaje-ano-nuevo-chino.jpg"
+      ],
+      "files": {
+        "editorial-macbeth.jpg": {
+          "name": "editorial-macbeth.jpg",
+          "blob": "274e1d7bc00a7db556474af490f587e8",
+          "size": 61317,
+          "type": "image/jpeg"
+        },
+        "social-century21-top-producer.jpg": {
+          "name": "social-century21-top-producer.jpg",
+          "blob": "60cb59266f1c7b86aa0b8dfb79416f48",
+          "size": 47515,
+          "type": "image/jpeg"
+        },
+        "branding-socohua-libreta.jpg": {
+          "name": "branding-socohua-libreta.jpg",
+          "blob": "0b77a21de85fce758e7731b32beccff6",
+          "size": 31543,
+          "type": "image/jpeg"
+        },
+        "ilustracion-clean-world-2.jpg": {
+          "name": "ilustracion-clean-world-2.jpg",
+          "blob": "83e1008ce61f2804a2b45c6db1574b38",
+          "size": 31295,
+          "type": "image/jpeg"
+        },
+        "fotomontaje-ano-nuevo-chino.jpg": {
+          "name": "fotomontaje-ano-nuevo-chino.jpg",
+          "blob": "cac7b27e664657e779983d24ec555171",
+          "size": 62959,
+          "type": "image/jpeg"
+        }
+      }
+    },
+    "Retrato": {
+      "name": "Retrato",
+      "tile": "m",
+      "order": [
+        "alanis-retrato.jpg"
+      ],
+      "files": {
+        "alanis-retrato.jpg": {
+          "name": "alanis-retrato.jpg",
+          "blob": "e44af35b9b4363fbb51d89579a30e354",
+          "size": 53850,
+          "type": "image/jpeg"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Claude",
+    "via": "Claude Code",
+    "at": "2026-10-16T18:31:31Z",
+    "note": "Primera versión de Pop Nocturna a partir del prototipo aprobado en el Paso 1."
+  }
+}

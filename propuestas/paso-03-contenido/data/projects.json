@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "macbeth",
+    "cats": [
+      "editorial",
+      "ilustracion"
+    ],
+    "featured": true,
+    "images": [
+      "editorial-macbeth.jpg",
+      "editorial-macbeth-2.jpg",
+      "editorial-macbeth-tipografico.jpg"
+    ],
+    "alt": [
+      "Cartel de Macbeth con ilustración de corona en alto contraste",
+      "Cartel de Macbeth con dibujo de línea de manos y corona",
+      "Cartel tipográfico de Macbeth que repite el título"
+    ],
+    "es": {
+      "title": "Macbeth: serie de carteles teatrales",
+      "description": "Tres carteles para Macbeth de Shakespeare: ilustración de alto contraste, dibujo de línea y una versión solo tipográfica. Diseño editorial de Alanis Romero.",
+      "h1": "Macbeth",
+      "subtitle": "tres carteles, tres lecturas",
+      "summary": "Tres carteles para una puesta de Macbeth: uno ilustrado, uno con dibujo de línea y uno solo tipográfico.",
+      "pieces": "El primero usa una ilustración de alto contraste con la corona como símbolo. El segundo dibuja manos y corona con línea suelta. El tercero es solo tipografía: el título se repite y en cada línea resalta una letra."
+    },
+    "en": {
+      "title": "Macbeth: Theater Poster Series",
+      "description": "Three posters for a staging of Shakespeare's Macbeth: a high-contrast illustration, a line drawing and a type-only version. Editorial design by Alanis Romero.",
+      "h1": "Macbeth",
+      "subtitle": "three posters, three readings",
+      "summary": "Three posters for a staging of Macbeth: one illustrated, one line drawing and one purely typographic.",
+      "pieces": "The first uses a high-contrast illustration with the crown as a symbol. The second features a loose line drawing of hands and a crown. The third is purely typographic: the title repeats, highlighting a different letter on each line."
+    },
+    "pending": [
+      "¿Fue un encargo real, un ejercicio de clase o un proyecto personal? Los carteles dicen “Directed by Alanis Romero”.",
+      "¿Qué herramientas usaste?"
+    ]
+  },
+  {
+    "slug": "century-21",
+    "cats": [
+      "redes"
+    ],
+    "featured": true,
+    "images": [
+      "social-century21-top-producer.jpg",
+      "social-century21-top-lados.jpg"
+    ],
+    "alt": [
+      "Post Top Producer 2025 de Century 21 con retrato de la agente",
+      "Post Top Lados 2025 de Century 21 con retrato del agente"
+    ],
+    "es": {
+      "title": "Century 21: posts de reconocimiento",
+      "description": "Posts de reconocimiento para agentes destacados de Century 21 Horizonte, con tratamiento dorado, retrato y jerarquía clara. Diseño para redes de Alanis Romero.",
+      "h1": "Century 21",
+      "subtitle": "reconocimientos que se comparten",
+      "summary": "Posts de reconocimiento para agentes de Century 21 Horizonte, con un tratamiento dorado y sobrio.",
+      "pieces": "Una plantilla para premiar a los agentes del año (Top Producer, Top Lados) que se repite con cada ganador: fondo de mármol con líneas doradas, el puesto en grande, retrato y datos de contacto del agente."
+    },
+    "en": {
+      "title": "Century 21: Agent Recognition Posts",
+      "description": "Recognition posts for top agents at Century 21 Horizonte, with a gold treatment, portrait and clear hierarchy. Social media design by Alanis Romero.",
+      "h1": "Century 21",
+      "subtitle": "recognition worth sharing",
+      "summary": "Recognition posts for Century 21 Horizonte agents, with a sober gold treatment.",
+      "pieces": "A template celebrating Agents of the Year (Top Producer, Top Sides) tailored for each winner: a marble background with gold accents, prominent placement of the title, portrait, and agent contact info."
+    },
+    "pending": [
+      "¿Lo hiciste en SOCOHUA? ¿Cuántas piezas y en qué redes se publicaron?",
+      "¿Hay métricas de alcance o interacción?",
+      "En Behance también hay carruseles y TikToks de Century 21 Excellence: ¿los sumamos a este caso?"
+    ]
+  },
+  {
+    "slug": "socohua",
+    "cats": [
+      "branding"
+    ],
+    "featured": true,
+    "images": [
+      "branding-socohua-libreta.jpg",
+      "branding-socohua-tote.jpg",
+      "branding-socohua-polo.jpg"
+    ],
+    "alt": [
+      "Libreta con el monograma de Socohua",
+      "Bolsas de tela con la marca Socohua",
+      "Polo con el logotipo de Socohua"
+    ],
+    "es": {
+      "title": "Socohua: identidad corporativa aplicada",
+      "description": "Aplicaciones de la marca de Socohua Publicidad y Marketing en libretas, bolsas, bolígrafos y polos: una identidad sobria con monograma y tipografía fina.",
+      "h1": "Socohua",
+      "subtitle": "una marca en cada detalle",
+      "summary": "Aplicaciones de la marca de Socohua Publicidad y Marketing en papelería, bolsas y uniformes.",
+      "pieces": "El monograma de Socohua aplicado en libretas, bolsas de tela en crudo y negro, bolígrafos y polos, con una paleta neutra y tipografía fina."
+    },
+    "en": {
+      "title": "Socohua: Corporate Identity in Use",
+      "description": "The Socohua Publicidad y Marketing identity applied to notebooks, tote bags, pens and polo shirts: a sober identity built on a monogram and fine typography.",
+      "h1": "Socohua",
+      "subtitle": "a brand in every detail",
+      "summary": "The Socohua Publicidad y Marketing identity applied to stationery, bags and uniforms.",
+      "pieces": "The Socohua monogram applied to notebooks, natural and black canvas tote bags, pens, and polo shirts, with a neutral palette and clean typography."
+    },
+    "pending": [
+      "¿Diseñaste el logotipo o solo las aplicaciones?",
+      "¿Para qué se usaron (kit de bienvenida, evento)?"
+    ]
+  },
+  {
+    "slug": "for-a-clean-world",
+    "cats": [
+      "ilustracion"
+    ],
+    "featured": true,
+    "images": [
+      "ilustracion-clean-world-1.jpg",
+      "ilustracion-clean-world-2.jpg",
+      "ilustracion-clean-world-3.jpg"
+    ],
+    "alt": [
+      "Cartel sobre pesticidas: un hombre rocía su boca con insecticida",
+      "Cartel sobre plástico en el agua: un pescador saca una botella",
+      "Cartel sobre el aire: un esqueleto junto al humo de un auto"
+    ],
+    "es": {
+      "title": "For a Clean World: campaña ilustrada",
+      "description": "Serie de tres carteles ilustrados sobre la contaminación del suelo, el agua y el aire, con ilustración vectorial plana y mensajes cortos en inglés.",
+      "h1": "For a Clean World",
+      "subtitle": "suelo, agua y aire",
+      "summary": "Serie de carteles ilustrados sobre la contaminación del suelo, el agua y el aire.",
+      "pieces": "Tres escenas con la misma paleta y retícula: pesticidas que llegan al cuerpo, plástico en el agua y el humo de los autos. Cada cartel cierra con un mensaje corto."
+    },
+    "en": {
+      "title": "For a Clean World: Illustrated Campaign",
+      "description": "A series of three illustrated posters about soil, water and air pollution, with flat vector illustration and short messages. Illustration by Alanis Romero.",
+      "h1": "For a Clean World",
+      "subtitle": "soil, water and air",
+      "summary": "A series of illustrated posters about soil, water and air pollution.",
+      "pieces": "Three scenes sharing the same palette and grid: pesticides affecting the human body, plastic in water, and vehicle exhaust fumes. Each poster concludes with a concise message."
+    },
+    "pending": [
+      "Los carteles llevan logos de Ad Council y Greenpeace: ¿fue un ejercicio académico? Conviene aclarar en el caso que es una propuesta no oficial."
+    ]
+  },
+  {
+    "slug": "ano-nuevo-chino",
+    "cats": [
+      "fotomontaje",
+      "redes"
+    ],
+    "featured": true,
+    "images": [
+      "fotomontaje-ano-nuevo-chino.jpg"
+    ],
+    "alt": [
+      "Fotomontaje de un dragón y un templo para el Año Nuevo Chino"
+    ],
+    "es": {
+      "title": "Año Nuevo Chino: fotomontaje para redes",
+      "description": "Post de fecha especial para Century 21 con un dragón, un templo y caligrafía en un fotomontaje monocromático. Fotomontaje y diseño para redes sociales.",
+      "h1": "Año Nuevo Chino",
+      "subtitle": "un dragón en el feed",
+      "summary": "Post de fecha especial para Century 21, con fotomontaje y un tratamiento monocromático.",
+      "pieces": "Un dragón, un templo y caligrafía china integrados en una sola imagen en tonos grises, con el saludo y la fecha en tipografía limpia."
+    },
+    "en": {
+      "title": "Chinese New Year: Social Media Photomontage",
+      "description": "A holiday post for Century 21 that blends a dragon, a temple and calligraphy into a monochrome photomontage. Photomontage and social media design.",
+      "h1": "Chinese New Year",
+      "subtitle": "a dragon in the feed",
+      "summary": "A holiday post for Century 21, with photomontage and a monochrome treatment.",
+      "pieces": "A dragon, temple, and Chinese calligraphy integrated into a single grayscale composition, featuring holiday greetings and the date in crisp typography."
+    },
+    "pending": [
+      "¿Cuántas fechas especiales diseñaste para Century 21?"
+    ]
+  },
+  {
+    "slug": "jakon-crm",
+    "cats": [
+      "branding",
+      "editorial"
+    ],
+    "featured": true,
+    "images": [
+      "branding-jakon-manual.jpg",
+      "branding-jakon-paleta.jpg"
+    ],
+    "alt": [
+      "Página del manual de Jakon CRM con variaciones del logotipo",
+      "Página del manual de Jakon CRM con la paleta de colores"
+    ],
+    "es": {
+      "title": "Jakon CRM: logotipo y manual de marca",
+      "description": "Manual de marca para Jakon CRM: variaciones del logotipo, paleta con códigos Pantone, RGB y CMYK, tipografías, usos correctos e incorrectos y aplicaciones.",
+      "h1": "Jakon CRM",
+      "subtitle": "una marca con reglas claras",
+      "summary": "Manual con variaciones de logotipo, paleta, tipografías y usos correctos e incorrectos.",
+      "pieces": "Un manual que reúne el logotipo y sus versiones vertical, horizontal, blanca y negra, la paleta con códigos para pantalla e imprenta, las tipografías y ejemplos de uso correcto e incorrecto."
+    },
+    "en": {
+      "title": "Jakon CRM: Logo and Brand Guidelines",
+      "description": "Brand guidelines for Jakon CRM by Alanis Romero: logo variations, a palette with Pantone, RGB and CMYK codes, typefaces, do's and don'ts, and applications.",
+      "h1": "Jakon CRM",
+      "subtitle": "a brand with clear rules",
+      "summary": "Guidelines with logo variations, palette, typefaces and do's and don'ts.",
+      "pieces": "A brand manual covering the logo and its vertical, horizontal, black, and white lockups, the color palette with screen and print codes, typography, and clear do's and don'ts."
+    },
+    "pending": [
+      "¿Jakon CRM es una marca real o un proyecto académico?",
+      "¿Diseñaste el logotipo? ¿Tienes el manual en alta resolución?"
+    ]
+  },
+  {
+    "slug": "otro-maldito-podcast",
+    "cats": [
+      "video",
+      "redes"
+    ],
+    "featured": true,
+    "images": [
+      "video-omp-1.jpg",
+      "video-omp-2.jpg",
+      "video-omp-3.jpg"
+    ],
+    "alt": [
+      "Clip vertical de Otro Maldito Podcast con dos invitados",
+      "Clip vertical con subtítulos en pantalla",
+      "Clip vertical de una conversación del podcast"
+    ],
+    "es": {
+      "title": "Otro Maldito Podcast: reels y videos cortos",
+      "description": "Más de 40 videos cortos editados a partir de episodios de una hora de Otro Maldito Podcast, con subtítulos y textos para Instagram, TikTok, Facebook y YouTube.",
+      "h1": "Otro Maldito Podcast",
+      "subtitle": "una hora en un minuto",
+      "summary": "Más de 40 videos cortos editados a partir de episodios de una hora, con textos para cada red.",
+      "pieces": "Clips verticales de un minuto con subtítulos y textos en pantalla, armados con CapCut y Filmora, más el texto de publicación adaptado a Instagram, TikTok, Facebook y YouTube."
+    },
+    "en": {
+      "title": "Otro Maldito Podcast: Reels and Short Videos",
+      "description": "40+ short videos edited from one-hour episodes of Otro Maldito Podcast, with subtitles, pacing and captions for Instagram, TikTok, Facebook and YouTube.",
+      "h1": "Otro Maldito Podcast",
+      "subtitle": "an hour in a minute",
+      "summary": "40+ short videos edited from one-hour episodes, with captions for each platform.",
+      "pieces": "One-minute vertical clips with subtitles and on-screen copy edited in CapCut and Filmora, paired with custom captions tailored for Instagram, TikTok, Facebook, and YouTube."
+    },
+    "pending": [
+      "Enlaces a 3 reels con buenas cifras y, si se puede, vistas totales.",
+      "¿Permiso del podcast para mostrar los videos?"
+    ]
+  },
+  {
+    "slug": "alphabet",
+    "cats": [
+      "editorial"
+    ],
+    "featured": true,
+    "images": [
+      "editorial-alphabet.jpg",
+      "editorial-alphabet-spread.jpg"
+    ],
+    "alt": [
+      "Portada del libro Alphabet con un maniquí leyendo",
+      "Doble página de la letra A con una manzana"
+    ],
+    "es": {
+      "title": "Alphabet: libro ilustrado del abecedario",
+      "description": "Libro del abecedario que combina fotografía de objetos, un color plano por letra y textos breves en inglés. Diseño editorial de Alanis Romero.",
+      "h1": "Alphabet",
+      "subtitle": "de la A a la Z",
+      "summary": "Libro del abecedario con fotografía de objetos, color plano por letra y textos cortos.",
+      "pieces": "Cada letra ocupa una doble página: un objeto fotografiado sobre un color plano y la letra con un texto breve. La portada usa un maniquí de dibujo leyendo un libro."
+    },
+    "en": {
+      "title": "Alphabet: An Illustrated ABC Book",
+      "description": "An illustrated ABC book that pairs object photography, one flat color per letter and short, simple texts for every letter. Editorial design by Alanis Romero.",
+      "h1": "Alphabet",
+      "subtitle": "from A to Z",
+      "summary": "An ABC book with object photography, one flat color per letter and short texts.",
+      "pieces": "Each letter spans a two-page spread: a photographed object against flat color and the letter paired with brief text. The cover features an artist's mannequin reading a book."
+    },
+    "pending": [
+      "¿Fue un proyecto de clase? ¿Cuántas páginas tiene?"
+    ]
+  },
+  {
+    "slug": "dia-de-reyes",
+    "cats": [
+      "fotomontaje",
+      "redes"
+    ],
+    "featured": false,
+    "images": [
+      "fotomontaje-reyes-magos.jpg"
+    ],
+    "alt": [
+      "Fotomontaje de los tres Reyes Magos con una caravana al fondo"
+    ],
+    "es": {
+      "title": "Día de Reyes: fotomontaje para redes",
+      "description": "Post de fecha especial para el Día de los Reyes Magos con un fotomontaje en escala de grises, los tres rostros en primer plano y una caravana al fondo.",
+      "h1": "Día de Reyes",
+      "subtitle": "tres rostros, una fecha",
+      "summary": "Post de fecha especial con fotomontaje en escala de grises para redes sociales.",
+      "pieces": "Los rostros de los tres Reyes Magos en primer plano y una caravana a contraluz, unidos en un fotomontaje en grises con el saludo y la fecha."
+    },
+    "en": {
+      "title": "Three Kings Day: Social Media Photomontage",
+      "description": "A holiday post for Three Kings Day with a grayscale photomontage, three faces in the foreground and a caravan in the distance. Design by Alanis Romero.",
+      "h1": "Three Kings Day",
+      "subtitle": "three faces, one date",
+      "summary": "A holiday post with a grayscale photomontage for social media.",
+      "pieces": "The faces of the Three Wise Men in the foreground with a backlit caravan in the distance, united in a grayscale photomontage with holiday greetings and the date."
+    },
+    "pending": []
+  },
+  {
+    "slug": "the-prodigal",
+    "cats": [
+      "editorial"
+    ],
+    "featured": false,
+    "images": [
+      "editorial-the-prodigal.jpg",
+      "editorial-the-prodigal-interior.jpg"
+    ],
+    "alt": [
+      "Revista abierta con el artículo The Prodigal",
+      "Páginas interiores del artículo con fotografía"
+    ],
+    "es": {
+      "title": "The Prodigal: diseño editorial de revista",
+      "description": "Portada e interiores para un artículo de revista, con cita destacada, retícula a dos columnas y una paleta de crema, azul y vino. Diseño de Alanis Romero.",
+      "h1": "The Prodigal",
+      "subtitle": "un artículo, varias páginas",
+      "summary": "Portada e interiores para un artículo de revista, con citas destacadas y retícula a columnas.",
+      "pieces": "La portada del artículo y sus páginas interiores, con una cita destacada en grande, texto a dos columnas y fotografía del autor."
+    },
+    "en": {
+      "title": "The Prodigal: Magazine Editorial Design",
+      "description": "Opening spread and inside pages for a magazine article, with a pull quote, a two-column grid and a palette of cream, blue and wine. Design by Alanis Romero.",
+      "h1": "The Prodigal",
+      "subtitle": "one article, many pages",
+      "summary": "Opening and inside pages for a magazine article, with pull quotes and a column grid.",
+      "pieces": "The article's opening spread and inside pages, featuring a prominent pull quote, two-column layout, and photography of the author."
+    },
+    "pending": [
+      "¿Para qué publicación fue?"
+    ]
+  },
+  {
+    "slug": "vampbook",
+    "cats": [
+      "branding",
+      "ilustracion"
+    ],
+    "featured": false,
+    "images": [
+      "logo-vampbook.jpg",
+      "logo-vampbook-2.jpg"
+    ],
+    "alt": [
+      "Emblema de Vampbook con un murciélago mordiendo un libro",
+      "Versión con alas desplegadas del logotipo de Vampbook"
+    ],
+    "es": {
+      "title": "Vampbook: diseño de logotipo ilustrado",
+      "description": "Logotipo ilustrado que une un murciélago y un libro, en tres versiones: emblema a color, horizontal y con las alas desplegadas. Branding de Alanis Romero.",
+      "h1": "Vampbook",
+      "subtitle": "un murciélago lector",
+      "summary": "Logotipo ilustrado que une un murciélago y un libro, en tres versiones.",
+      "pieces": "Tres versiones del mismo personaje: un emblema a color con el murciélago mordiendo un libro, una versión horizontal y otra con las alas desplegadas sobre una cinta."
+    },
+    "en": {
+      "title": "Vampbook: Illustrated Logo Design",
+      "description": "An illustrated logo that combines a bat and a book, in three versions: a color emblem, a horizontal lockup and a spread-wing version. By Alanis Romero.",
+      "h1": "Vampbook",
+      "subtitle": "a bat who reads",
+      "summary": "An illustrated logo combining a bat and a book, in three versions.",
+      "pieces": "Three versions of the character: a full-color emblem with a bat biting a book, a horizontal lockup, and an emblem with spread wings over a banner ribbon."
+    },
+    "pending": [
+      "¿Vampbook es una marca real o un ejercicio?"
+    ]
+  },
+  {
+    "slug": "the-book-thief",
+    "cats": [
+      "ilustracion"
+    ],
+    "featured": false,
+    "images": [
+      "ilustracion-book-thief.jpg"
+    ],
+    "alt": [
+      "Ilustración de portada de The Book Thief: una niña lee junto a la Muerte"
+    ],
+    "es": {
+      "title": "The Book Thief: ilustración de portada",
+      "description": "Ilustración de portada para La ladrona de libros de Markus Zusak: la protagonista lee junto a la Muerte frente a un muro de ladrillos, en tonos tierra.",
+      "h1": "The Book Thief",
+      "subtitle": "leer junto a la Muerte",
+      "summary": "Ilustración de portada para La ladrona de libros de Markus Zusak.",
+      "pieces": "La protagonista sentada con un libro y la Muerte a su lado, frente a un muro de ladrillos, con el título en tipografía irregular."
+    },
+    "en": {
+      "title": "The Book Thief: Cover Illustration",
+      "description": "A cover illustration for Markus Zusak's The Book Thief: the protagonist reads beside Death in front of a brick wall, in earthy tones. By Alanis Romero.",
+      "h1": "The Book Thief",
+      "subtitle": "reading beside Death",
+      "summary": "A cover illustration for Markus Zusak's The Book Thief.",
+      "pieces": "The protagonist seated with a book and Death by her side against a brick wall, crowned with expressive, hand-crafted title lettering."
+    },
+    "pending": [
+      "¿Fue un ejercicio académico? Aclararlo como portada no oficial."
+    ]
+  }
+]

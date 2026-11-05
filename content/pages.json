@@ -1,0 +1,425 @@
+{
+  "home": {
+    "es": {
+      "title": "Diseñadora gráfica freelance en Lima",
+      "description": "Diseño para redes sociales, branding, diseño editorial e ilustración. Soy Alanis Romero, diseñadora gráfica freelance en Lima y trabajo en español e inglés.",
+      "eyebrow": "Alanis Romero · Diseñadora gráfica freelance en Lima",
+      "h1": "Diseño que se queda en tu feed",
+      "h1Note": "El antetítulo va dentro del h1 para que la palabra clave esté en el título principal.",
+      "lead": "Soy Alanis Romero. Diseño redes sociales que detienen el scroll, marcas con carácter y piezas editoriales con intención, en español e inglés.",
+      "ctas": [
+        "Ver trabajo",
+        "Sobre mí"
+      ],
+      "sections": [
+        {
+          "h2": "Trabajo destacado",
+          "body": "Ocho proyectos de redes sociales, branding, diseño editorial, ilustración y video corto.",
+          "cta": "Ver los 12 proyectos"
+        },
+        {
+          "h2": "Servicios",
+          "body": "Para marcas, agencias y creadores. Cada proyecto empieza con una conversación sobre qué necesitas comunicar y a quién."
+        },
+        {
+          "h2": "Cómo trabajo",
+          "steps": [
+            [
+              "Conversación",
+              "Me cuentas qué necesitas, para quién es y para cuándo."
+            ],
+            [
+              "Propuesta",
+              "Te envío alcance, fechas y presupuesto por escrito."
+            ],
+            [
+              "Diseño y revisiones",
+              "Te muestro avances y ajustamos juntos."
+            ],
+            [
+              "Entrega",
+              "Recibes los archivos listos para publicar o imprimir."
+            ]
+          ],
+          "new": true
+        },
+        {
+          "h2": "Hola, soy Alanis",
+          "body": "Me formé en BYU-Idaho y he diseñado para agencias, colegios, academias y podcasts. Me gusta que cada pieza comunique claro y tenga personalidad.",
+          "cta": "Conóceme"
+        },
+        {
+          "h2": "Lo que dicen",
+          "body": "Pendiente: dos o tres testimonios reales con permiso (SOCOHUA, Brigham Young School, Otro Maldito Podcast).",
+          "pending": true
+        }
+      ]
+    },
+    "en": {
+      "title": "Bilingual Freelance Graphic Designer in Peru",
+      "description": "Social media design, brand identity, editorial design and illustration in English and Spanish. I'm Alanis Romero, a freelance graphic designer in Lima, Peru.",
+      "eyebrow": "Alanis Romero · Freelance graphic designer in Lima, Peru",
+      "h1": "Design that sticks in your feed",
+      "lead": "I'm Alanis Romero. I design scroll-stopping social media, brands with character and editorial pieces with intent, in English and Spanish.",
+      "ctas": [
+        "See my work",
+        "About me"
+      ],
+      "sections": [
+        {
+          "h2": "Featured work",
+          "body": "Eight projects in social media, branding, editorial design, illustration and short-form video.",
+          "cta": "See all 12 projects"
+        },
+        {
+          "h2": "Services",
+          "body": "For brands, agencies and creators. Every project starts with a conversation about what you need to say and to whom."
+        },
+        {
+          "h2": "How I work",
+          "steps": [
+            [
+              "Conversation",
+              "You tell me what you need, who it's for and when."
+            ],
+            [
+              "Proposal",
+              "I send you scope, dates and budget in writing."
+            ],
+            [
+              "Design and revisions",
+              "I share progress and we refine it together."
+            ],
+            [
+              "Delivery",
+              "You get files ready to post or print."
+            ]
+          ],
+          "new": true
+        },
+        {
+          "h2": "Hi, I'm Alanis",
+          "body": "I studied at BYU-Idaho and have designed for agencies, schools, academies and podcasts. I want every piece to be clear and full of personality.",
+          "cta": "Get to know me"
+        },
+        {
+          "h2": "Kind words",
+          "body": "Pending: two or three real testimonials, shared with permission.",
+          "pending": true
+        }
+      ]
+    }
+  },
+  "work": {
+    "es": {
+      "title": "Portafolio de diseño gráfico freelance",
+      "description": "Proyectos de Alanis Romero: redes sociales para Century 21, identidad de Socohua, carteles, libros ilustrados y reels. Filtra por tipo o busca por nombre.",
+      "eyebrow": "Portafolio",
+      "h1": "Trabajo",
+      "lead": "Doce proyectos de redes sociales, branding, diseño editorial, ilustración, fotomontaje y video corto.",
+      "sections": [
+        {
+          "h2": "Filtros",
+          "body": "#Todo · #Redes · #Branding · #Editorial · #Ilustración · #Fotomontaje · #Video, más buscador y orden (destacados, A–Z)."
+        }
+      ]
+    },
+    "en": {
+      "title": "Freelance Graphic Design Portfolio",
+      "description": "Work by Alanis Romero: social media for Century 21, the Socohua identity, theater posters, illustrated books and reels. Filter by type or search by name.",
+      "eyebrow": "Portfolio",
+      "h1": "Work",
+      "lead": "Twelve projects in social media, branding, editorial design, illustration, photomontage and short-form video.",
+      "sections": [
+        {
+          "h2": "Filters",
+          "body": "#All · #Social · #Branding · #Editorial · #Illustration · #Photomontage · #Video, plus search and sort (featured, A–Z)."
+        }
+      ]
+    }
+  },
+  "services": {
+    "es": {
+      "title": "Servicios de diseño gráfico freelance",
+      "description": "Diseño para redes sociales, branding e identidad, diseño editorial, ilustración y edición de video corto para marcas, agencias y creadores, en español e inglés.",
+      "eyebrow": "Servicios",
+      "h1": "Lo que hago",
+      "lead": "Cinco servicios con un mismo objetivo: que tu marca se vea coherente y con personalidad en todo lo que toca.",
+      "sections": [
+        {
+          "h2": "Cómo trabajo",
+          "steps": [
+            [
+              "Conversación",
+              "Me cuentas qué necesitas, para quién es y para cuándo."
+            ],
+            [
+              "Propuesta",
+              "Te envío alcance, fechas y presupuesto por escrito."
+            ],
+            [
+              "Diseño y revisiones",
+              "Te muestro avances y ajustamos juntos."
+            ],
+            [
+              "Entrega",
+              "Recibes los archivos listos para publicar o imprimir."
+            ]
+          ]
+        },
+        {
+          "h2": "¿No ves lo que necesitas?",
+          "body": "Escríbeme igual. Muchos proyectos mezclan servicios, como una identidad nueva con sus primeras publicaciones.",
+          "cta": "Cuéntame tu proyecto"
+        }
+      ]
+    },
+    "en": {
+      "title": "Freelance Graphic Design Services",
+      "description": "Social media design, brand identity, editorial design, illustration and short-form video editing for brands, agencies and creators, in English and Spanish.",
+      "eyebrow": "Services",
+      "h1": "What I do",
+      "lead": "Five services with one goal: making your brand look consistent and full of personality everywhere it shows up.",
+      "sections": [
+        {
+          "h2": "How I work",
+          "steps": [
+            [
+              "Conversation",
+              "You tell me what you need, who it's for and when."
+            ],
+            [
+              "Proposal",
+              "I send you scope, dates and budget in writing."
+            ],
+            [
+              "Design and revisions",
+              "I share progress and we refine it together."
+            ],
+            [
+              "Delivery",
+              "You get files ready to post or print."
+            ]
+          ]
+        },
+        {
+          "h2": "Don't see what you need?",
+          "body": "Write to me anyway. Many projects mix services, like a new identity plus its first posts.",
+          "cta": "Tell me about your project"
+        }
+      ]
+    }
+  },
+  "about": {
+    "es": {
+      "titleAbsolute": "Sobre mí: Alanis Romero, diseñadora gráfica en Lima",
+      "description": "Diseñadora gráfica junior formada en BYU-Idaho, con experiencia en agencia, educación y contenido digital para organizaciones de Perú, México, Chequia y EE. UU.",
+      "eyebrow": "Sobre mí",
+      "h1": "Hola, soy Alanis",
+      "lead": "Diseñadora gráfica junior en Lima, Perú. Diseño para redes sociales, marcas y piezas editoriales, en español e inglés.",
+      "bio": [
+        "Soy Alanis Romero, diseñadora gráfica en Lima, Perú. Estudié Ciencias Aplicadas en BYU-Idaho, donde también obtuve el certificado en Fundamentos de Diseño Gráfico, y desde entonces he diseñado para agencias, colegios, academias y podcasts.",
+        "En SOCOHUA Publicidad y Marketing diseñé más de 50 piezas para cuatro marcas en tres meses, desde redes sociales hasta papelería. Hoy edito videos cortos para Otro Maldito Podcast y trabajo de forma freelance con marcas que quieren verse coherentes y con personalidad.",
+        "Trabajo en español e inglés con Photoshop, Illustrator, InDesign, Canva y CapCut. Me gusta que cada pieza comunique claro, y me inspiran las noches estrelladas y todo lo que tiene un poco de misterio."
+      ],
+      "sections": [
+        {
+          "h2": "Experiencia"
+        },
+        {
+          "h2": "Formación"
+        },
+        {
+          "h2": "Herramientas"
+        },
+        {
+          "h2": "Idiomas"
+        }
+      ],
+      "ctas": [
+        "Descargar CV",
+        "Escribirme"
+      ]
+    },
+    "en": {
+      "titleAbsolute": "About Alanis Romero, Graphic Designer in Lima",
+      "description": "Junior graphic designer trained at BYU-Idaho, with agency, education and digital content experience for organizations in Peru, Mexico, Czechia and the US.",
+      "eyebrow": "About",
+      "h1": "Hi, I'm Alanis",
+      "lead": "Junior graphic designer based in Lima, Peru. I design for social media, brands and editorial projects, in English and Spanish.",
+      "bio": [
+        "I'm Alanis Romero, a graphic designer based in Lima, Peru. I studied Applied Science at BYU-Idaho, where I also earned a Graphic Design Fundamentals Certificate, and since then I've designed for agencies, schools, academies and podcasts.",
+        "At SOCOHUA Publicidad y Marketing I created more than 50 pieces for four brands in three months, from social media to stationery. Today I edit short-form videos for Otro Maldito Podcast and work as a freelancer with brands that want to look consistent and full of personality.",
+        "I work in English and Spanish with Photoshop, Illustrator, InDesign, Canva and CapCut. I want every piece to communicate clearly, and I'm inspired by starry nights and anything with a touch of mystery."
+      ],
+      "sections": [
+        {
+          "h2": "Experience"
+        },
+        {
+          "h2": "Education"
+        },
+        {
+          "h2": "Tools"
+        },
+        {
+          "h2": "Languages"
+        }
+      ],
+      "ctas": [
+        "Download CV",
+        "Write to me"
+      ]
+    }
+  },
+  "collaborate": {
+    "es": {
+      "title": "Colaboraciones creativas con otros creadores",
+      "description": "¿Eres fotógrafa, ilustrador o tienes un podcast? Propón una colaboración: carruseles con tus fotos, reels de tu podcast o un proyecto ilustrado a cuatro manos.",
+      "eyebrow": "Colabora",
+      "h1": "¿Eres creador/a?",
+      "lead": "Me encanta trabajar con otros creativos. Si tienes una idea que necesita diseño, hagámosla juntos.",
+      "sections": [
+        {
+          "h2": "Ideas para empezar",
+          "items": [
+            [
+              "Foto + diseño",
+              "Tus fotos convertidas en carruseles, portadas o una serie editorial."
+            ],
+            [
+              "Podcast + reels",
+              "Episodios largos convertidos en clips con identidad propia para cada red."
+            ],
+            [
+              "Ilustración a cuatro manos",
+              "Proyectos personales, fanzines o campañas entre ilustradores."
+            ]
+          ]
+        },
+        {
+          "h2": "Cómo funciona",
+          "steps": [
+            [
+              "Me escribes",
+              "Cuéntame tu idea y dónde la quieres publicar."
+            ],
+            [
+              "Definimos el alcance",
+              "Acordamos piezas, fechas y créditos para ambos."
+            ],
+            [
+              "Creamos y publicamos",
+              "Cada quien lo comparte en sus redes y portafolios."
+            ]
+          ]
+        }
+      ],
+      "cta": "Proponer una colab"
+    },
+    "en": {
+      "title": "Creative Collaborations with Other Creators",
+      "description": "Photographer, illustrator or podcaster? Propose a collaboration: carousels with your photos, reels from your podcast or a joint illustrated project.",
+      "eyebrow": "Collaborate",
+      "h1": "Are you a creator?",
+      "lead": "I love working with other creatives. If you have an idea that needs design, let's make it together.",
+      "sections": [
+        {
+          "h2": "Ideas to start with",
+          "items": [
+            [
+              "Photos + design",
+              "Your photos turned into carousels, covers or an editorial series."
+            ],
+            [
+              "Podcast + reels",
+              "Long episodes turned into clips with their own identity for each platform."
+            ],
+            [
+              "Four-hand illustration",
+              "Personal projects, zines or campaigns between illustrators."
+            ]
+          ]
+        },
+        {
+          "h2": "How it works",
+          "steps": [
+            [
+              "You write to me",
+              "Tell me your idea and where you want to publish it."
+            ],
+            [
+              "We set the scope",
+              "We agree on pieces, dates and credits for both of us."
+            ],
+            [
+              "We create and share",
+              "We each share it on our channels and portfolios."
+            ]
+          ]
+        }
+      ],
+      "cta": "Propose a collab"
+    }
+  },
+  "contact": {
+    "es": {
+      "title": "Contacto: cotiza tu proyecto de diseño",
+      "description": "Escríbeme para cotizar diseño de redes sociales, branding, diseño editorial, ilustración o video corto. Trabajo en remoto con clientes de Perú y del mundo.",
+      "eyebrow": "Contacto",
+      "h1": "Hablemos",
+      "lead": "Cuéntame qué necesitas. Te respondo con preguntas para entender el proyecto o con una propuesta.",
+      "faq": [
+        [
+          "¿Trabajas con clientes fuera de Perú?",
+          "Sí. Trabajo en remoto con marcas y creadores de cualquier país, en español o en inglés. Estoy en Lima (GMT-5)."
+        ],
+        [
+          "¿Qué necesitas para empezar?",
+          "Una idea de lo que quieres comunicar, a quién va dirigido y, si existen, tu logo, colores o referencias. Con eso te envío una propuesta."
+        ],
+        [
+          "¿Cuánto tarda un proyecto?",
+          "Depende del alcance. Un set de posts no toma lo mismo que una identidad completa. En la propuesta incluyo un cronograma con fechas claras."
+        ],
+        [
+          "¿Trabajas con plantillas de Canva?",
+          "Sí. Puedo diseñar en Photoshop o Illustrator y entregarte plantillas editables en Canva para que tu equipo publique."
+        ],
+        [
+          "¿Cuánto cuesta?",
+          "Pendiente de Alanis: precios desde o paquetes por servicio. Mientras tanto, cada proyecto se cotiza según su alcance."
+        ]
+      ]
+    },
+    "en": {
+      "title": "Contact: Get a Quote for Your Design Project",
+      "description": "Write to me for a quote on social media design, branding, editorial design, illustration or short-form video. I work remotely with clients in Peru and beyond.",
+      "eyebrow": "Contact",
+      "h1": "Let's talk",
+      "lead": "Tell me what you need. I'll reply with questions to understand your project or with a proposal.",
+      "faq": [
+        [
+          "Do you work with clients outside Peru?",
+          "Yes. I work remotely with brands and creators anywhere, in English or Spanish. I'm based in Lima (GMT-5)."
+        ],
+        [
+          "What do you need to get started?",
+          "An idea of what you want to communicate, who it's for and, if you have them, your logo, colors or references. With that I'll send you a proposal."
+        ],
+        [
+          "How long does a project take?",
+          "It depends on the scope. A set of posts doesn't take the same time as a full identity. My proposal includes a timeline with clear dates."
+        ],
+        [
+          "Do you work with Canva templates?",
+          "Yes. I can design in Photoshop or Illustrator and deliver editable Canva templates so your team can post on its own."
+        ],
+        [
+          "How much does it cost?",
+          "Pending from Alanis: starting prices or packages per service. For now, each project is quoted based on its scope."
+        ]
+      ]
+    }
+  }
+}

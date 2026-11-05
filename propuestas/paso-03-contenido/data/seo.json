@@ -1,0 +1,387 @@
+{
+  "clusters": [
+    {
+      "id": "freelance-es",
+      "name": "Diseñadora freelance (ES)",
+      "intent": "Comercial local",
+      "content": "Inicio",
+      "route": "home",
+      "lang": "es",
+      "priority": 1,
+      "primary": "diseñadora gráfica freelance Lima",
+      "secondary": [
+        "diseñadora gráfica freelance Perú",
+        "diseñador gráfico freelance",
+        "contratar diseñadora gráfica",
+        "diseñadora gráfica bilingüe"
+      ],
+      "serp": "Hoy ganan perfiles de Behance y bolsas de trabajo (Computrabajo, Workana); casi no hay webs personales. Una web bien optimizada más el Behance de Alanis pueden ocupar dos lugares."
+    },
+    {
+      "id": "social-es",
+      "name": "Redes sociales",
+      "intent": "Comercial",
+      "content": "Página de servicio",
+      "route": "svc-social",
+      "lang": "es",
+      "priority": 1,
+      "primary": "diseño de redes sociales para marcas",
+      "secondary": [
+        "diseño de posts para Instagram",
+        "diseño de carruseles para Instagram",
+        "plantillas de Canva para redes",
+        "diseñadora de redes sociales freelance"
+      ],
+      "serp": "Los clientes en Workana piden portafolio con métricas de alcance; conviene mostrar cifras en los casos."
+    },
+    {
+      "id": "branding-es",
+      "name": "Branding e identidad",
+      "intent": "Comercial",
+      "content": "Página de servicio",
+      "route": "svc-branding",
+      "lang": "es",
+      "priority": 2,
+      "primary": "diseño de identidad de marca",
+      "secondary": [
+        "diseño de logotipo",
+        "manual de marca",
+        "branding para emprendimientos",
+        "diseñadora de branding Lima"
+      ],
+      "serp": "Ganan agencias y perfiles de Behance sin precios publicados: una página que explique qué incluye un manual de marca se diferencia."
+    },
+    {
+      "id": "video-es",
+      "name": "Video corto",
+      "intent": "Comercial",
+      "content": "Página de servicio",
+      "route": "svc-video",
+      "lang": "es",
+      "priority": 2,
+      "primary": "edición de reels para podcast",
+      "secondary": [
+        "editor de videos cortos",
+        "edición de TikTok para marcas",
+        "convertir podcast en reels"
+      ],
+      "serp": "Búsqueda en crecimiento y poco cubierta por diseñadores; el caso de Otro Maldito Podcast es la prueba."
+    },
+    {
+      "id": "editorial-es",
+      "name": "Diseño editorial",
+      "intent": "Comercial",
+      "content": "Página de servicio",
+      "route": "svc-editorial",
+      "lang": "es",
+      "priority": 3,
+      "primary": "diseño editorial de revistas y libros",
+      "secondary": [
+        "maquetación de libros",
+        "diseño de catálogos",
+        "diseño de afiches"
+      ],
+      "serp": ""
+    },
+    {
+      "id": "illustration-es",
+      "name": "Ilustración",
+      "intent": "Comercial",
+      "content": "Página de servicio",
+      "route": "svc-illustration",
+      "lang": "es",
+      "priority": 3,
+      "primary": "ilustradora freelance",
+      "secondary": [
+        "ilustración para portadas de libros",
+        "ilustración para campañas",
+        "ilustración vectorial"
+      ],
+      "serp": ""
+    },
+    {
+      "id": "core-en",
+      "name": "Freelance designer (EN)",
+      "intent": "Commercial",
+      "content": "Home (EN)",
+      "route": "home",
+      "lang": "en",
+      "priority": 1,
+      "primary": "bilingual freelance graphic designer",
+      "secondary": [
+        "freelance graphic designer Peru",
+        "Spanish English graphic designer",
+        "Latin American graphic designer for hire",
+        "graphic designer in Lima"
+      ],
+      "serp": "Dominan marketplaces (Contra, Freelancer, Hubstaff). La web sirve sobre todo para que un cliente de Upwork o una empresa confirme el nivel; en Google, apuntar a búsquedas largas con 'bilingual'."
+    },
+    {
+      "id": "services-en",
+      "name": "Services (EN)",
+      "intent": "Commercial",
+      "content": "Service pages (EN)",
+      "route": "services",
+      "lang": "en",
+      "priority": 2,
+      "primary": "social media designer for brands",
+      "secondary": [
+        "brand identity designer",
+        "brand guidelines design",
+        "short-form video editor for podcasts",
+        "editorial designer for magazines"
+      ],
+      "serp": ""
+    },
+    {
+      "id": "brand-name",
+      "name": "Nombre propio",
+      "intent": "Navegacional",
+      "content": "Sobre mí",
+      "route": "about",
+      "lang": "es",
+      "priority": 1,
+      "primary": "Alanis Romero",
+      "secondary": [
+        "Alanis Romero diseñadora",
+        "Alanis Romero Behance",
+        "Alanis Romero graphic designer"
+      ],
+      "serp": "Proteger el nombre: que la web, Behance y LinkedIn ocupen los primeros resultados cuando una empresa busque su nombre al recibir el CV."
+    },
+    {
+      "id": "blog-es",
+      "name": "Preguntas de clientes (fase 2)",
+      "intent": "Informativa",
+      "content": "Artículos (Notas)",
+      "route": null,
+      "lang": "es",
+      "priority": 4,
+      "primary": "qué incluye un manual de marca",
+      "secondary": [
+        "cómo hacer un brief de diseño",
+        "cuánto cobra un diseñador gráfico freelance en Perú",
+        "cómo convertir un podcast en reels",
+        "tamaños de imágenes para redes sociales"
+      ],
+      "serp": "Para después del lanzamiento: cada artículo enlaza a su servicio y usa un proyecto de Alanis como ejemplo."
+    }
+  ],
+  "schema": {
+    "Person": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://alanisromero.com/#alanis",
+      "name": "Alanis Romero",
+      "jobTitle": "Diseñadora gráfica freelance",
+      "url": "https://alanisromero.com",
+      "image": "https://alanisromero.com/og/alanis.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lima",
+        "addressCountry": "PE"
+      },
+      "knowsLanguage": [
+        "es",
+        "en"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Brigham Young University–Idaho"
+      },
+      "knowsAbout": [
+        "Diseño gráfico",
+        "Diseño para redes sociales",
+        "Branding",
+        "Diseño editorial",
+        "Ilustración",
+        "Edición de video corto"
+      ],
+      "sameAs": [
+        "https://www.behance.net/alanisromero2",
+        "https://www.linkedin.com/in/alanis-romero"
+      ]
+    },
+    "ProfessionalService": {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://alanisromero.com/#servicio",
+      "name": "Alanis Romero · Diseño gráfico",
+      "url": "https://alanisromero.com",
+      "founder": {
+        "@id": "https://alanisromero.com/#alanis"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Perú"
+        },
+        {
+          "@type": "Place",
+          "name": "Remoto, todo el mundo"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lima",
+        "addressCountry": "PE"
+      },
+      "availableLanguage": [
+        "es",
+        "en"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Diseño para redes sociales",
+              "url": "https://alanisromero.com/servicios/diseno-redes-sociales"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Branding e identidad",
+              "url": "https://alanisromero.com/servicios/branding-e-identidad"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Diseño editorial",
+              "url": "https://alanisromero.com/servicios/diseno-editorial"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ilustración",
+              "url": "https://alanisromero.com/servicios/ilustracion"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Video corto",
+              "url": "https://alanisromero.com/servicios/edicion-video-corto"
+            }
+          }
+        ]
+      }
+    },
+    "WebSite": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://alanisromero.com/#web",
+      "url": "https://alanisromero.com",
+      "name": "Alanis Romero",
+      "inLanguage": [
+        "es",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://alanisromero.com/#alanis"
+      }
+    },
+    "CreativeWork": {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Macbeth: serie de carteles teatrales",
+      "url": "https://alanisromero.com/trabajo/macbeth",
+      "creator": {
+        "@id": "https://alanisromero.com/#alanis"
+      },
+      "genre": [
+        "Diseño editorial",
+        "Ilustración"
+      ],
+      "image": [
+        "https://alanisromero.com/trabajo/macbeth/01.avif"
+      ],
+      "inLanguage": "es"
+    },
+    "FAQPage": "En /contacto y en cada servicio, generado desde sus preguntas.",
+    "BreadcrumbList": "En casos y servicios: Inicio › Trabajo › Macbeth."
+  },
+  "technical": [
+    [
+      "Metadatos",
+      "generateMetadata de Next.js en cada página: título con el sufijo “| Alanis Romero”, descripción, canonical y Open Graph."
+    ],
+    [
+      "Idiomas",
+      "Español en la raíz y /en para inglés, con hreflang es, en y x-default (español) en cada par de páginas."
+    ],
+    [
+      "Mapa del sitio",
+      "sitemap.ts con las dos versiones de cada página y robots.ts; enviar ambos a Google Search Console y Bing."
+    ],
+    [
+      "Imágenes",
+      "next/image en AVIF/WebP con texto alternativo de cada pieza (ya escrito en projects.json) y tamaños explícitos."
+    ],
+    [
+      "Open Graph",
+      "Imágenes para compartir generadas con next/og en el estilo Pop Nocturna: titular, etiqueta de categoría y asterisco."
+    ],
+    [
+      "Fuentes",
+      "Bricolage Grotesque y Delicious Handrawn con next/font, alojadas en el propio sitio (más rápido y sin pedir datos a Google)."
+    ],
+    [
+      "Velocidad",
+      "Metas de Core Web Vitals: LCP menor a 2,5 s, CLS menor a 0,1 e INP menor a 200 ms. Three.js, si se usa, carga después del contenido."
+    ],
+    [
+      "Ventana de proyecto",
+      "Rutas interceptadas: desde la rejilla el proyecto abre en ventana; con enlace directo es una página indexable."
+    ],
+    [
+      "Enlaces internos",
+      "Cada servicio enlaza a sus proyectos y a Contacto; cada caso enlaza a su servicio, al anterior y al siguiente."
+    ],
+    [
+      "Analítica",
+      "Analítica sin cookies (Vercel Analytics o Plausible). Si se usa GA4, hace falta aviso de cookies."
+    ],
+    [
+      "Legal",
+      "Página de privacidad para el formulario de contacto y la analítica."
+    ]
+  ],
+  "offpage": [
+    [
+      "Behance",
+      "Titular “Diseñadora gráfica freelance en Lima”, completar Servicios, enlazar la web y que cada proyecto enlace a su caso. Renombrar o archivar “OLD ACCOUNT”."
+    ],
+    [
+      "LinkedIn",
+      "Mismo titular y foto que la web; agregar la web en Destacados y en Información de contacto."
+    ],
+    [
+      "Upwork y Fiverr",
+      "Mismo nombre, foto y descripción corta. Revisar las reglas de cada plataforma sobre enlaces externos antes de agregar la web."
+    ],
+    [
+      "Coherencia",
+      "Mismo nombre, puesto y ciudad en todos los perfiles: así Google y los asistentes con IA entienden que son la misma persona."
+    ],
+    [
+      "Testimonios",
+      "Pedir dos o tres frases con permiso a SOCOHUA, Brigham Young School y Otro Maldito Podcast. Son la prueba más fuerte para un perfil junior."
+    ],
+    [
+      "Google Search Console",
+      "Verificar el dominio el día del lanzamiento y revisar cada mes qué búsquedas traen visitas."
+    ]
+  ],
+  "notes": "Sin herramienta de volumen de búsqueda conectada: las prioridades salen de la intención y de una revisión de resultados en Google (octubre 2026). Validar con Search Console tras el lanzamiento."
+}

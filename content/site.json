@@ -1,0 +1,169 @@
+{
+  "name": "Alanis Romero",
+  "domain": "https://alanisromero.com",
+  "domainNote": "Dominio propuesto: confirmar disponibilidad y compra.",
+  "defaultLocale": "es",
+  "locales": [
+    "es",
+    "en"
+  ],
+  "hreflang": {
+    "es": "es",
+    "en": "en",
+    "x-default": "es"
+  },
+  "titleSuffix": " | Alanis Romero",
+  "person": {
+    "name": "Alanis Romero",
+    "jobTitle": {
+      "es": "Diseñadora gráfica freelance",
+      "en": "Freelance graphic designer"
+    },
+    "city": "Lima",
+    "country": "PE",
+    "email": "alanisbloom27@gmail.com",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "alumniOf": "Brigham Young University–Idaho",
+    "sameAs": [
+      "https://www.behance.net/alanisromero2",
+      "https://www.linkedin.com/in/alanis-romero"
+    ],
+    "sameAsPending": [
+      "Instagram",
+      "Upwork",
+      "Fiverr",
+      "TikTok"
+    ]
+  },
+  "nav": {
+    "es": [
+      {
+        "label": "Trabajo",
+        "route": "work"
+      },
+      {
+        "label": "Servicios",
+        "route": "services"
+      },
+      {
+        "label": "Sobre mí",
+        "route": "about"
+      },
+      {
+        "label": "Contacto",
+        "route": "contact"
+      }
+    ],
+    "en": [
+      {
+        "label": "Work",
+        "route": "work"
+      },
+      {
+        "label": "Services",
+        "route": "services"
+      },
+      {
+        "label": "About",
+        "route": "about"
+      },
+      {
+        "label": "Contact",
+        "route": "contact"
+      }
+    ]
+  },
+  "cta": {
+    "es": "Hablemos",
+    "en": "Let's talk"
+  },
+  "footer": {
+    "es": {
+      "title": "Creemos algo",
+      "hand": "que brille",
+      "cards": [
+        {
+          "small": "Para marcas y empresas",
+          "title": "Cuéntame tu proyecto",
+          "text": "Redes, branding, editorial e ilustración",
+          "route": "contact"
+        },
+        {
+          "small": "Para creadores",
+          "title": "Hagamos una colab",
+          "text": "Fotografía, ilustración, música o podcast",
+          "route": "collaborate"
+        }
+      ],
+      "legal": "© 2026 Alanis Romero · Diseñadora gráfica freelance · Lima, Perú"
+    },
+    "en": {
+      "title": "Let's create something",
+      "hand": "that shines",
+      "cards": [
+        {
+          "small": "For brands and companies",
+          "title": "Tell me about your project",
+          "text": "Social media, branding, editorial and illustration",
+          "route": "contact"
+        },
+        {
+          "small": "For creators",
+          "title": "Let's collaborate",
+          "text": "Photography, illustration, music or podcasts",
+          "route": "collaborate"
+        }
+      ],
+      "legal": "© 2026 Alanis Romero · Freelance graphic designer · Lima, Peru"
+    }
+  },
+  "brands": [
+    "Century 21",
+    "Socohua",
+    "Jakon CRM",
+    "Otro Maldito Podcast",
+    "Brigham Young School",
+    "Cumorah Academy"
+  ],
+  "stats": {
+    "es": [
+      [
+        "+130",
+        "Piezas y videos"
+      ],
+      [
+        "+5",
+        "Marcas y clientes"
+      ],
+      [
+        "4",
+        "Países"
+      ],
+      [
+        "ES·EN",
+        "Bilingüe"
+      ]
+    ],
+    "en": [
+      [
+        "130+",
+        "Pieces and videos"
+      ],
+      [
+        "5+",
+        "Brands and clients"
+      ],
+      [
+        "4",
+        "Countries"
+      ],
+      [
+        "EN·ES",
+        "Bilingual"
+      ]
+    ]
+  }
+}

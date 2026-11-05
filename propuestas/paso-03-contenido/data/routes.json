@@ -1,0 +1,93 @@
+[
+  {
+    "id": "home",
+    "es": "/",
+    "en": "/en",
+    "type": "Inicio",
+    "priority": 1.0
+  },
+  {
+    "id": "work",
+    "es": "/trabajo",
+    "en": "/en/work",
+    "type": "Portafolio",
+    "priority": 0.9
+  },
+  {
+    "id": "project",
+    "es": "/trabajo/[slug]",
+    "en": "/en/work/[slug]",
+    "type": "Caso de estudio (12)",
+    "priority": 0.7
+  },
+  {
+    "id": "services",
+    "es": "/servicios",
+    "en": "/en/services",
+    "type": "Servicios",
+    "priority": 0.9
+  },
+  {
+    "id": "svc-social",
+    "es": "/servicios/diseno-redes-sociales",
+    "en": "/en/services/social-media-design",
+    "type": "Servicio",
+    "priority": 0.8
+  },
+  {
+    "id": "svc-branding",
+    "es": "/servicios/branding-e-identidad",
+    "en": "/en/services/brand-identity",
+    "type": "Servicio",
+    "priority": 0.8
+  },
+  {
+    "id": "svc-editorial",
+    "es": "/servicios/diseno-editorial",
+    "en": "/en/services/editorial-design",
+    "type": "Servicio",
+    "priority": 0.8
+  },
+  {
+    "id": "svc-illustration",
+    "es": "/servicios/ilustracion",
+    "en": "/en/services/illustration",
+    "type": "Servicio",
+    "priority": 0.8
+  },
+  {
+    "id": "svc-video",
+    "es": "/servicios/edicion-video-corto",
+    "en": "/en/services/short-form-video",
+    "type": "Servicio",
+    "priority": 0.8
+  },
+  {
+    "id": "about",
+    "es": "/sobre-mi",
+    "en": "/en/about",
+    "type": "Sobre mí + CV",
+    "priority": 0.7
+  },
+  {
+    "id": "collaborate",
+    "es": "/colabora",
+    "en": "/en/collaborate",
+    "type": "Para creadores",
+    "priority": 0.6
+  },
+  {
+    "id": "contact",
+    "es": "/contacto",
+    "en": "/en/contact",
+    "type": "Contacto + preguntas",
+    "priority": 0.7
+  },
+  {
+    "id": "privacy",
+    "es": "/privacidad",
+    "en": "/en/privacy",
+    "type": "Legal (noindex no; enlazada en el pie)",
+    "priority": 0.2
+  }
+]

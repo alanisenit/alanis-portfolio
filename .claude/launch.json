@@ -1,0 +1,53 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "propuestas",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5173",
+        "--directory",
+        "propuestas/paso-01-direccion"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "pop-nocturna",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5174",
+        "--directory",
+        "propuestas/paso-01b-pop-nocturna"
+      ],
+      "port": 5174
+    },
+    {
+      "name": "design-system",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5175",
+        "--directory",
+        "design-system"
+      ],
+      "port": 5175
+    },
+    {
+      "name": "contenido",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5176",
+        "--directory",
+        "propuestas/paso-03-contenido"
+      ],
+      "port": 5176
+    }
+  ]
+}

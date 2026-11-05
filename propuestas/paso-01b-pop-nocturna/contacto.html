@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contacto · Alanis Romero</title>
+<meta name="description" content="Escribe a Alanis Romero, diseñadora gráfica freelance en Lima, para proyectos de redes sociales, branding, editorial, ilustración o colaboraciones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Delicious+Handrawn&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs><filter id="rough" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter></defs>
+  <symbol id="ast" viewBox="0 0 100 100"><g stroke="currentColor" stroke-width="11" stroke-linecap="round" fill="none" filter="url(#rough)"><path d="M50 50 L51 8"/><path d="M50 50 L81 20"/><path d="M50 50 L92 53"/><path d="M50 50 L79 81"/><path d="M50 50 L47 93"/><path d="M50 50 L19 82"/><path d="M50 50 L7 46"/><path d="M50 50 L21 18"/></g></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 8.5A1.5 1.5 0 0 1 4.5 7H7l1.5-2.5h7L17 7h2.5A1.5 1.5 0 0 1 21 8.5V18a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18z"/><circle cx="12" cy="13" r="3.6"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 21l-7-7 3-8 4-3 4 3 3 8z"/><circle cx="12" cy="11.5" r="1.6"/><path d="M12 3v6.9"/></symbol>
+</svg>
+<header class="top">
+  <div class="top-in">
+    <a class="logo" href="./" aria-label="Alanis Romero, inicio"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg><span>Alanis<br>Romero</span></a>
+    <nav class="boxes" aria-label="Principal">
+      <a href="trabajo.html">Trabajo</a>
+      <a href="./#servicios">Servicios</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+      <a href="contacto.html" aria-current="page">Contacto</a>
+    </nav>
+    <div class="top-r"><span class="lang" role="group" aria-label="Language"><button type="button" class="lang-btn active" data-lang="es">ES</button> / <button type="button" class="lang-btn" data-lang="en">EN</button></span><a class="cta-out" href="contacto.html"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg>Hablemos</a></div>
+  </div>
+</header>
+<main>
+<section class="wrap page-hero">
+  <p class="eyebrow rise"><span class="dot"></span>Contacto</p>
+  <h1 class="d page-title rise r2">Hablemos <span class="hand c-honey">✶</span></h1>
+  <p class="lead rise r3">Cuéntame qué necesitas. Te respondo con preguntas para entender el proyecto o con una propuesta.</p>
+</section>
+<section class="panel panel-paper" id="creadores">
+  <div class="wrap contact-grid">
+    <form class="form" id="contact-form" novalidate>
+      <div class="seg" role="radiogroup" aria-label="Quién escribe">
+        <input type="radio" id="who-marca" name="who" value="marca" checked><label for="who-marca">Soy marca o empresa</label>
+        <input type="radio" id="who-creador" name="who" value="creador"><label for="who-creador">Soy creador/a</label>
+      </div>
+      <div class="two-f">
+        <div class="field"><label for="f-name">Nombre</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-email">Correo</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field"><label for="f-service">¿Qué necesitas?</label>
+        <select id="f-service" name="service"><option value="redes">Diseño para redes sociales</option><option value="branding">Branding e identidad</option><option value="editorial">Diseño editorial</option><option value="ilustracion">Ilustración</option><option value="video">Video corto</option><option value="colab">Una colaboración</option><option value="otro">Otra cosa</option></select>
+      </div>
+      <div class="field"><label for="f-msg">Mensaje</label><textarea id="f-msg" name="message" required placeholder="Cuéntame sobre tu marca o tu idea"></textarea></div>
+      <div class="ctas"><button class="btn btn-green" type="submit">Enviar mensaje <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+      <p class="form-note" id="form-note" role="status"></p>
+    </form>
+    <aside class="contact-side">
+      <div class="side-card bg-honey"><small>Correo</small><b id="mail-text">alanisbloom27@gmail.com</b><button type="button" class="copy" id="copy-mail">Copiar</button></div>
+      <div class="side-card bg-mint"><small>Redes</small><a href="https://www.behance.net/alanisromero2">Behance</a><a href="https://www.linkedin.com/in/alanis-romero">LinkedIn</a><span class="soon">Instagram (pendiente)</span></div>
+      <div class="side-card bg-sky"><small>Ubicación</small><b>Lima, Perú</b><span>Clientes de cualquier país · GMT-5</span></div>
+    </aside>
+  </div>
+</section>
+<section class="panel panel-white" id="faq">
+  <div class="wrap">
+    <div class="p-head"><h2 class="d h2">Preguntas <span class="hand c-blue">frecuentes</span></h2></div>
+    <div class="faq">
+      <details><summary>¿Trabajas con clientes fuera de Perú?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Sí. Trabajo en remoto con marcas y creadores de cualquier país, en español o en inglés. Estoy en Lima (GMT-5).</p></details>
+      <details><summary>¿Qué necesitas para empezar?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Una idea de lo que quieres comunicar, a quién va dirigido y, si existen, tu logo, colores o referencias. Con eso te envío una propuesta.</p></details>
+      <details><summary>¿Cuánto tarda un proyecto?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Depende del alcance. Un set de posts no toma lo mismo que una identidad completa. En la propuesta incluyo un cronograma con fechas claras.</p></details>
+      <details><summary>¿Haces paquetes mensuales para redes?<svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Pendiente de confirmar con Alanis: aquí iría la información de paquetes o precios desde.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-big">
+      <h2 class="d foot-title">Creemos algo<br><span class="hand">que brille</span></h2>
+      <div class="sun" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#ast"/></svg></div>
+    </div>
+    <div class="foot-cards">
+      <a class="foot-card bg-honey" href="contacto.html"><small>Para marcas y empresas</small><b>Cuéntame tu proyecto</b><span>Redes, branding, editorial e ilustración</span></a>
+      <a class="foot-card bg-pink" href="contacto.html#creadores"><small>Para creadores</small><b>Hagamos una colab</b><span>Fotografía, ilustración, música o podcast</span></a>
+    </div>
+    <div class="foot-bottom">
+      <span class="mail">alanisbloom27@gmail.com</span>
+      <nav aria-label="Redes"><a href="https://www.behance.net/alanisromero2">Behance</a><a href="https://www.linkedin.com/in/alanis-romero">LinkedIn</a><span class="soon" title="Usuario pendiente">Instagram</span></nav>
+      <span>© 2026 Alanis Romero · Diseñadora gráfica freelance · Lima, Perú</span>
+    </div>
+  </div>
+</footer>
+
+<a class="demo-badge" href="notas.html"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg>Prototipo · Paso 1 — ver notas</a>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

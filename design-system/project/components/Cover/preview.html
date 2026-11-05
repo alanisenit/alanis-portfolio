@@ -1,0 +1,60 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pop Nocturna</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--night); color:var(--cream); font-family:var(--font-display); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .blue { fill:var(--blue); } .green { fill:var(--green); } .honey { fill:var(--honey); } .pink { fill:var(--pink); } .mint { fill:var(--green-lite); }
+  .card { rx:var(--radius-md); }
+  .words { position:absolute; left:var(--space-7); bottom:var(--space-7); max-width:440px; }
+  .name { margin:0; font-size:92px; line-height:.92; font-weight:800; font-variation-settings:"opsz" 96, "wdth" 75; letter-spacing:-.005em; color:var(--cream); }
+  .tag { margin:var(--space-3) 0 0 2px; font-family:var(--font-body); font-size:14px; line-height:20px; color:var(--soft); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      blue arco 176 de ancho que sangra por abajo (el color de marca, el más grande) · green disco r=104 detrás (el disco del hero) · honey píldora 136×48 · pink tarjeta 96×96 radius-md que sangra por la derecha — ≈38% de 960×288
+  arrangement el collage del hero: un arco alto con satélites, como la forma azul y el disco verde que sostienen las piezas
+  pattern     motivo literal: el asterisco de Alanis armado con píldoras radius-full de 12px de grosor (4 por asterisco, 3 asteriscos = 12 unidades) en pink, honey y green-lite, "de noche es estrella"
+  scales      márgenes space-7 (40); separaciones space-3 (12) y space-5 (24); esquinas radius-md en la tarjeta, radius-full en arco, disco y píldoras
+-->
+<circle class="green" cx="300" cy="118" r="104"/>
+<rect class="blue arch" x="120" y="64" width="176" height="300" rx="88"/>
+<rect class="honey pill" x="292" y="216" width="136" height="48" rx="24"/>
+<rect class="pink card" x="412" y="40" width="96" height="96" rx="24"/>
+<g transform="translate(208 150)">
+  <rect class="pink pill" x="-36" y="-6" width="72" height="12" rx="6"/>
+  <rect class="pink pill" x="-36" y="-6" width="72" height="12" rx="6" transform="rotate(45)"/>
+  <rect class="pink pill" x="-36" y="-6" width="72" height="12" rx="6" transform="rotate(90)"/>
+  <rect class="pink pill" x="-36" y="-6" width="72" height="12" rx="6" transform="rotate(135)"/>
+</g>
+<g transform="translate(320 92)">
+  <rect class="honey pill" x="-28" y="-6" width="56" height="12" rx="6"/>
+  <rect class="honey pill" x="-28" y="-6" width="56" height="12" rx="6" transform="rotate(45)"/>
+  <rect class="honey pill" x="-28" y="-6" width="56" height="12" rx="6" transform="rotate(90)"/>
+  <rect class="honey pill" x="-28" y="-6" width="56" height="12" rx="6" transform="rotate(135)"/>
+</g>
+<g transform="translate(64 48)">
+  <rect class="mint pill" x="-18" y="-5" width="36" height="10" rx="5"/>
+  <rect class="mint pill" x="-18" y="-5" width="36" height="10" rx="5" transform="rotate(45)"/>
+  <rect class="mint pill" x="-18" y="-5" width="36" height="10" rx="5" transform="rotate(90)"/>
+  <rect class="mint pill" x="-18" y="-5" width="36" height="10" rx="5" transform="rotate(135)"/>
+</g>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Pop Nocturna</h1>
+<p class="tag">Pop sobre azul noche, para que el trabajo de Alanis brille.</p>
+</div>
+</div>
+</body>
+</html>

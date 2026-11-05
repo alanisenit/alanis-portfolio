@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contenido SEO Alanis Romero</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Delicious+Handrawn&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  /* Layout: barra Pop Nocturna → resumen → paneles redondeados sobre azul noche; el panel "Páginas" es una herramienta con lista a la izquierda y vista de Google + textos a la derecha */
+  --night:#0a0f20; --bar:#05070f; --white:#ffffff; --paper:#f4f6f3; --thumb:#e8ece9;
+  --ink:#0f1a33; --ink-soft:#33405a; --muted:#566079; --line:#dce2e6;
+  --cream:#f2f4f1; --lead:#c6cee0; --soft:#b9c3da;
+  --blue:#2d62c4; --green:#1f9a72; --green-deep:#13654b; --green-lite:#7fe0b5;
+  --pink:#ff7ea6; --honey:#ffc94d; --lav:#a898ff; --mint:#c2f0dc; --sky:#d3e2ff; --blush:#ffe0ea; --error:#b3263e;
+  --g-title:#1a0dab; --g-url:#202124; --g-text:#4d5156;
+  --focus-ring:0 0 0 3px #0f1a33,0 0 0 6px #ffc94d;
+  --f-display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-hand:"Delicious Handrawn","Comic Sans MS",cursive;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --f-google:Arial,"Helvetica Neue",Helvetica,sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--night);color:var(--cream);font-family:var(--f-body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;font-variation-settings:"opsz" 14;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{margin:0;text-wrap:balance}
+p{margin:0}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+.wrap{width:100%;max-width:1360px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media (min-width:760px){.wrap{padding-left:max(40px,env(safe-area-inset-left,0px));padding-right:max(40px,env(safe-area-inset-right,0px))}}
+.ico{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.d{font-family:var(--f-display);font-weight:800;text-transform:uppercase;font-variation-settings:"opsz" 96,"wdth" 75;line-height:.88;letter-spacing:-.005em}
+.hand{font-family:var(--f-hand);font-weight:400;text-transform:none;font-variation-settings:normal;letter-spacing:0;display:inline-block;transform:rotate(-6deg)}
+.mono{font-family:var(--f-mono)}
+
+/* Barra */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--bar);border-bottom:1px solid #ffffff12}
+.top .wrap{display:flex;align-items:center;gap:12px 20px;flex-wrap:wrap;padding-block:12px}
+.logo{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none}
+.logo svg{width:28px;height:28px;color:var(--pink)}
+.logo b{font:800 16px/.9 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 96,"wdth" 75}
+.logo span{font:500 11.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.toc{display:flex;gap:6px;flex-wrap:wrap}
+.toc a{background:var(--white);color:var(--ink);text-decoration:none;font:650 15px/1 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 48,"wdth" 85;padding:9px 12px}
+.toc a:hover{background:var(--mint)}
+.lang{display:inline-grid;grid-template-columns:1fr 1fr;border:1.5px solid var(--honey)}
+.lang button{appearance:none;border:0;background:transparent;color:var(--honey);padding:7px 12px;font:750 15px/1 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 48,"wdth" 75;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--honey);color:var(--ink)}
+@media (max-width:980px){.toc{display:none}}
+
+/* Hero */
+.hero{padding-block:clamp(36px,6vw,80px) clamp(32px,4vw,56px)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:650;letter-spacing:.1em;text-transform:uppercase;color:var(--soft)}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--green-lite);box-shadow:0 0 0 4px #7fe0b52e}
+.hero h1{font-size:clamp(64px,11vw,176px);margin-top:16px}
+.hero h1 .hand{color:var(--pink);font-size:.56em}
+.hero .lead{font-size:clamp(16.5px,1.5vw,19px);color:var(--lead);max-width:60ch;margin-top:22px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:22px;font:500 13px var(--f-mono);color:var(--soft)}
+.facts b{color:var(--cream);font-weight:500}
+
+/* Paneles */
+.panel{margin-top:12px;margin-left:max(10px,env(safe-area-inset-left,0px));margin-right:max(10px,env(safe-area-inset-right,0px));border-radius:28px;padding-block:clamp(40px,5.5vw,76px);overflow:hidden}
+.p-white{background:var(--white);color:var(--ink)}
+.p-paper{background:var(--paper);color:var(--ink)}
+.p-blue{background:var(--blue);color:#fff}
+.p-blush{background:var(--blush);color:var(--ink)}
+.p-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px 32px;flex-wrap:wrap;margin-bottom:clamp(24px,3vw,40px)}
+.p-head p{max-width:52ch;color:var(--ink-soft)}
+.p-blue .p-head p{color:#e3ebff}
+.h2{font-size:clamp(44px,6vw,92px)}
+.h2 .hand{font-size:.58em;color:var(--blue)}
+.p-blue .h2 .hand{color:var(--honey)}
+.label{font:500 11.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.p-blue .label{color:#dce6ff}
+
+/* Estrategia */
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.three{grid-template-columns:1fr}}
+.card{border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.card h3{font:800 clamp(26px,2.6vw,36px)/.92 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 96,"wdth" 75}
+.card p{font-size:15.5px;color:var(--ink-soft)}
+.bg-sky{background:var(--sky)} .bg-mint{background:var(--mint)} .bg-honey{background:var(--honey)} .bg-blush{background:var(--blush)} .bg-paper{background:var(--paper)}
+.finding{margin-top:20px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;align-items:start;border-top:2.5px solid var(--ink);padding-top:18px;max-width:900px}
+.finding .tag{margin-top:3px}
+.finding p{font-size:16.5px;color:var(--ink-soft)}
+
+/* Etiquetas */
+.tag{display:inline-block;padding:5px 7px 4px;font:800 13px/1 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 48,"wdth" 75;letter-spacing:.02em;white-space:nowrap}
+.t-redes{background:var(--blue);color:#fff}.t-branding{background:var(--green);color:var(--ink)}.t-editorial{background:var(--pink);color:var(--ink)}.t-ilustracion{background:var(--honey);color:var(--ink)}.t-fotomontaje{background:var(--lav);color:var(--ink)}.t-video{background:var(--green-lite);color:var(--ink)}
+.t-p1{background:var(--ink);color:#fff}.t-p2{background:var(--blue);color:#fff}.t-p3{background:var(--sky);color:var(--ink)}.t-p4{background:var(--line);color:var(--ink)}
+.t-es{background:var(--honey);color:var(--ink)}.t-en{background:var(--mint);color:var(--ink)}
+.t-new{background:var(--green-lite);color:var(--ink)}.t-pend{background:var(--blush);color:#8a2e4c}
+
+/* Tablas */
+.tbl-wrap{overflow-x:auto;border-top:2.5px solid var(--ink)}
+table{width:100%;border-collapse:collapse;min-width:820px;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:14px 12px;border-bottom:1px solid var(--line)}
+thead th{font:500 11.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td b{font-weight:700}
+td .kw{display:block;font-weight:700;color:var(--ink)}
+td .sec{color:var(--ink-soft);font-size:14px}
+td .serp{display:block;color:var(--muted);font-size:13.5px;margin-top:6px;max-width:48ch}
+td code,.route{font:500 13px var(--f-mono);color:var(--blue);white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin-top:14px;max-width:80ch}
+
+/* Herramienta de páginas */
+.tool{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px 40px;align-items:start}
+@media (max-width:900px){.tool{grid-template-columns:1fr}}
+.side{position:sticky;top:84px;display:grid;gap:16px;max-height:calc(100vh - 110px);overflow:auto;padding-right:6px}
+@media (max-width:900px){.side{display:none}}
+.side h4{font:500 11.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.side ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.side button{appearance:none;width:100%;text-align:left;border:0;background:transparent;padding:8px 10px;font:600 15px/1.25 var(--f-body);color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.side button:hover{background:var(--paper)}
+.side button[aria-current="true"]{background:var(--ink);color:#fff}
+.side button .st{width:9px;height:9px;border-radius:50%;flex:none;border:2px solid currentColor}
+.side button .st.ok{background:var(--green);border-color:var(--green)}
+.picker{display:none}
+@media (max-width:900px){.picker{display:grid;gap:6px}}
+.picker select{width:100%;border:1.5px solid var(--ink);background:#fff;color:var(--ink);padding:12px;font-size:16px;border-radius:0}
+
+.serp-box{border:1.5px solid var(--ink);padding:clamp(16px,2.4vw,26px);display:grid;gap:18px}
+.serp-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.google{max-width:600px;font-family:var(--f-google)}
+.g-site{display:flex;align-items:center;gap:10px}
+.g-fav{width:28px;height:28px;border-radius:50%;background:var(--night);display:grid;place-items:center;flex:none}
+.g-fav svg{width:16px;height:16px;color:var(--pink)}
+.g-name{font-size:14px;color:var(--g-url);line-height:1.3}
+.g-url{font-size:12px;color:var(--g-text);line-height:1.3;word-break:break-all}
+.g-title{font-size:20px;line-height:1.3;color:var(--g-title);margin-top:6px;overflow-wrap:anywhere}
+.g-title.cut::after{content:" …"}
+.g-desc{font-size:14px;line-height:1.58;color:var(--g-text);margin-top:4px;overflow-wrap:anywhere}
+.google em{font-style:normal;font-weight:700;color:var(--g-url)}
+.fields{display:grid;gap:14px}
+.field{display:grid;gap:6px}
+.field-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.field label{font:800 15px/1 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 48,"wdth" 75}
+.count{font:500 12.5px var(--f-mono);color:var(--muted)}
+.count.bad{color:var(--error)}
+.field textarea{width:100%;border:1.5px solid var(--ink);background:#fff;color:var(--ink);padding:12px;font-size:16px;line-height:1.45;border-radius:0;resize:vertical}
+.meter{height:6px;background:var(--line);position:relative}
+.meter i{position:absolute;inset:0 auto 0 0;background:var(--green)}
+.meter.bad i{background:var(--error)}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.chk{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 11px 5px 8px;font-size:13.5px;font-weight:600;background:var(--mint);color:var(--ink)}
+.chk.warn{background:var(--blush);color:#8a2e4c}
+.chk svg{width:15px;height:15px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:11px 18px;border:0;cursor:pointer;font:700 13.5px/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background .2s}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:var(--blue)}
+.btn-out{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}.btn-out:hover{background:var(--paper)}
+.status{font-size:14px;color:var(--green-deep);min-height:1.4em}
+
+.doc{display:grid;gap:22px;margin-top:28px;max-width:860px}
+.blk{display:grid;grid-template-columns:96px minmax(0,1fr);gap:6px 18px;align-items:start}
+@media (max-width:560px){.blk{grid-template-columns:1fr}}
+.blk>.label{padding-top:6px}
+.blk h1.d{font-size:clamp(44px,6vw,80px);color:var(--ink)}
+.blk h2.d{font-size:clamp(28px,3.2vw,42px);line-height:.92}
+.blk .sub{font-family:var(--f-hand);font-size:30px;color:var(--blue);transform:rotate(-3deg);display:inline-block}
+.blk .lead{font-size:18px;color:var(--ink-soft)}
+.blk p{color:var(--ink-soft);max-width:66ch}
+.blk ul,.blk ol{margin:0;padding-left:20px;display:grid;gap:6px;color:var(--ink-soft)}
+.blk ol li::marker{font:800 16px var(--f-display);color:var(--blue)}
+.blk ol b{color:var(--ink)}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{border-radius:999px;padding:8px 14px;font:700 13px/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;background:var(--green);color:var(--ink)}
+.pill.alt{background:transparent;box-shadow:inset 0 0 0 1.5px var(--ink)}
+.faq{display:grid;gap:12px}
+.faq div{border-top:1px solid var(--line);padding-top:10px}
+.faq b{display:block;color:var(--ink)}
+.imgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.imgs figure{margin:0}
+.imgs img{width:100%;aspect-ratio:5/6;object-fit:cover;background:var(--thumb)}
+.imgs figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.35}
+.rel{display:flex;flex-wrap:wrap;gap:8px}
+.rel button{appearance:none;border:1.5px solid var(--ink);background:#fff;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;cursor:pointer;color:var(--ink)}
+.rel button:hover{background:var(--honey)}
+.pending{background:var(--blush);padding:16px 18px;display:grid;gap:8px}
+.pending b{color:#8a2e4c;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+.pending ul{color:var(--ink)}
+
+/* Técnico y fuera del sitio */
+.rows{list-style:none;margin:0;padding:0;border-top:2px solid #ffffff47}
+.rows li{display:grid;grid-template-columns:200px minmax(0,1fr);gap:6px 24px;padding:16px 0;border-bottom:2px solid #ffffff47}
+@media (max-width:700px){.rows li{grid-template-columns:1fr}}
+.rows b{font:800 22px/1 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 96,"wdth" 75}
+.rows span{color:#e8eefc;font-size:15.5px}
+.rows.dark{border-top-color:var(--ink)}
+.rows.dark li{border-bottom:1px solid var(--line)}
+.rows.dark span{color:var(--ink-soft)}
+details.code{margin-top:24px;background:var(--night);color:var(--cream);border-radius:20px;overflow:hidden}
+details.code summary{cursor:pointer;padding:16px 20px;font:800 20px/1 var(--f-display);text-transform:uppercase;font-variation-settings:"opsz" 96,"wdth" 75;list-style:none;display:flex;justify-content:space-between;gap:12px}
+details.code summary::-webkit-details-marker{display:none}
+details.code pre{margin:0;padding:0 20px 20px;overflow-x:auto;font:400 13px/1.6 var(--f-mono);color:var(--lead)}
+
+/* Validar */
+.two{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:24px 48px}
+@media (max-width:900px){.two{grid-template-columns:1fr}}
+.qs{margin:0;padding-left:24px;display:grid;gap:16px}
+.qs li{padding-left:6px;font-size:17px}
+.qs li::marker{font:800 18px var(--f-display);color:var(--blue)}
+.qs b{font-weight:700}
+.qs span{display:block;color:var(--ink-soft);font-size:15.5px;margin-top:2px}
+.todo{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.todo li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;font-size:15.5px}
+.todo li::before{content:"";width:16px;height:16px;border:1.5px solid var(--ink);margin-top:4px}
+.todo small{display:block;color:var(--muted);font-size:13.5px}
+
+.foot{padding-block:clamp(48px,7vw,96px) 30px}
+.foot h2{font-size:clamp(52px,8vw,128px)}
+.foot h2 .hand{color:var(--green-lite);font-size:.55em}
+.foot p{color:var(--soft);margin-top:18px;max-width:60ch}
+.err{background:var(--blush);color:var(--ink);padding:20px;border-radius:20px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs><filter id="rough" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter></defs>
+  <symbol id="ast" viewBox="0 0 100 100"><g stroke="currentColor" stroke-width="11" stroke-linecap="round" fill="none" filter="url(#rough)"><path d="M50 50 L51 8"/><path d="M50 50 L81 20"/><path d="M50 50 L92 53"/><path d="M50 50 L79 81"/><path d="M50 50 L47 93"/><path d="M50 50 L19 82"/><path d="M50 50 L7 46"/><path d="M50 50 L21 18"/></g></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11"/></symbol>
+  <symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3.5l9.5 16.5h-19z"/><path d="M12 10v4.5M12 17.4v.1"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="1"/><path d="M16 8V4H4v12h4"/></symbol>
+  <symbol id="i-undo" viewBox="0 0 24 24"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#inicio"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg><div><b>Alanis Romero</b><br><span>Paso 3 · Contenido y SEO</span></div></a>
+    <nav class="toc" aria-label="Secciones"><a href="#estrategia">Estrategia</a><a href="#palabras">Palabras clave</a><a href="#paginas">Páginas</a><a href="#tecnico">Técnico</a><a href="#validar">Validar</a></nav>
+    <div class="lang" role="group" aria-label="Idioma de los textos"><button type="button" id="lang-es" aria-pressed="true">ES</button><button type="button" id="lang-en" aria-pressed="false">EN</button></div>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="wrap hero">
+    <p class="eyebrow"><span class="dot"></span>Paso 3 de 6 · Para revisar con Alanis</p>
+    <h1 class="d">Contenido <span class="hand">y SEO</span></h1>
+    <p class="lead">Los textos de todo el sitio en español e inglés, las búsquedas que queremos ganar y cómo se verá cada página en Google. En “Páginas” puedes probar otros títulos y descripciones con contador.</p>
+    <p class="facts" id="facts"><span>Cargando contenido…</span></p>
+  </section>
+
+  <section class="panel p-white" id="estrategia">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">Estrategia <span class="hand">en tres frentes</span></h2><p>Una diseñadora junior no gana búsquedas genéricas el primer mes. Ganamos búsquedas concretas, en dos idiomas, y hacemos que todos sus perfiles digan lo mismo.</p></div>
+      <div class="three">
+        <div class="card bg-sky"><span class="tag t-es">ES · Google</span><h3>Búsquedas locales y de servicio</h3><p>Una página por servicio con su propia palabra clave (“diseño de redes sociales para marcas”, “edición de reels para podcast”) y el inicio apuntando a “diseñadora gráfica freelance en Lima”.</p></div>
+        <div class="card bg-mint"><span class="tag t-en">EN · Clientes y empresas</span><h3>Confirmar el nivel</h3><p>Quien llega desde Upwork, Fiverr o un CV busca pruebas. La versión en inglés apunta a “bilingual freelance graphic designer” y lleva los casos completos.</p></div>
+        <div class="card bg-honey"><span class="tag t-p1">Perfiles + IA</span><h3>Una sola identidad</h3><p>Mismo nombre, puesto, ciudad y foto en la web, Behance, LinkedIn y marketplaces, con datos estructurados. Así Google y los asistentes con IA la reconocen como una persona.</p></div>
+      </div>
+      <div class="finding"><span class="tag t-p2">Lo que vimos</span><p>En Google, “diseñadora gráfica freelance Lima” hoy muestra perfiles de Behance y bolsas de trabajo (Computrabajo, Workana), casi sin webs personales. En inglés dominan los marketplaces. Hay espacio para una web bien hecha, y el Behance de Alanis puede ocupar un segundo lugar si se optimiza.</p></div>
+    </div>
+  </section>
+
+  <section class="panel p-paper" id="palabras">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">Palabras <span class="hand">clave</span></h2><p>Diez grupos ordenados por prioridad. Cada grupo tiene una página destino; ninguna página compite con otra por la misma búsqueda.</p></div>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Prioridad</th><th>Grupo</th><th>Palabra principal y secundarias</th><th>Intención</th><th>Página destino</th></tr></thead>
+        <tbody id="kw-body"></tbody>
+      </table></div>
+      <p class="note" id="kw-note"></p>
+    </div>
+  </section>
+
+  <section class="panel p-white" id="paginas">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">Páginas <span class="hand">y textos</span></h2><p>Elige una página para ver su vista en Google y sus textos. Cambia el idioma arriba. Lo que edites aquí se guarda solo en tu navegador: si te gusta, cópialo y mándalo.</p></div>
+      <div class="tool">
+        <nav class="side" id="side" aria-label="Páginas del sitio"></nav>
+        <div>
+          <div class="picker"><label class="label" for="page-select">Página</label><select id="page-select"></select></div>
+          <div class="serp-box" id="serp-box">
+            <div class="serp-head"><span class="label">Vista previa en Google · escritorio</span><span class="label" id="kw-target"></span></div>
+            <div class="google" aria-live="polite">
+              <div class="g-site"><span class="g-fav"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg></span><div><div class="g-name">Alanis Romero</div><div class="g-url" id="g-url"></div></div></div>
+              <div class="g-title" id="g-title"></div>
+              <div class="g-desc" id="g-desc"></div>
+            </div>
+            <div class="fields">
+              <div class="field"><div class="field-top"><label for="f-title">Título</label><span class="count" id="c-title"></span></div><textarea id="f-title" rows="2"></textarea><div class="meter" id="m-title"><i></i></div></div>
+              <div class="field"><div class="field-top"><label for="f-desc">Descripción</label><span class="count" id="c-desc"></span></div><textarea id="f-desc" rows="3"></textarea><div class="meter" id="m-desc"><i></i></div></div>
+            </div>
+            <div class="checks" id="checks"></div>
+            <div class="btns"><button type="button" class="btn btn-ink" id="copy">Copiar título y descripción <svg class="ico" aria-hidden="true"><use href="#i-copy"/></svg></button><button type="button" class="btn btn-out" id="reset">Volver a la propuesta <svg class="ico" aria-hidden="true"><use href="#i-undo"/></svg></button></div>
+            <p class="status" id="status" role="status"></p>
+          </div>
+          <article class="doc" id="doc"></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel p-paper" id="mapa">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">Mapa <span class="hand">del sitio</span></h2><p>Español en la raíz y la versión en inglés bajo /en. Cada par de páginas se enlaza con hreflang para que Google muestre el idioma correcto.</p></div>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Página</th><th>Español</th><th>Inglés</th><th>Prioridad en sitemap</th></tr></thead>
+        <tbody id="routes-body"></tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section class="panel p-blue" id="tecnico">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">SEO <span class="hand">técnico</span></h2><p>Lo que construimos en Next.js en el Paso 4 para que Google lea bien cada página.</p></div>
+      <ul class="rows" id="tech"></ul>
+      <details class="code"><summary>Datos estructurados: Person y ProfessionalService <svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg></summary><pre id="schema"></pre></details>
+    </div>
+  </section>
+
+  <section class="panel p-white" id="fuera">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">Fuera <span class="hand">del sitio</span></h2><p>La web suma más si los perfiles la respaldan.</p></div>
+      <ul class="rows dark" id="offpage"></ul>
+    </div>
+  </section>
+
+  <section class="panel p-blush" id="validar">
+    <div class="wrap">
+      <div class="p-head"><h2 class="d h2">Para <span class="hand">validar</span></h2></div>
+      <div class="two">
+        <ol class="qs">
+          <li><b>¿El tono de los textos suena a Alanis?</b><span>Primera persona, cercano y directo. Revisa sobre todo la bio de Sobre mí y el inicio.</span></li>
+          <li><b>¿Confirmamos español en la raíz e inglés en /en?</b><span>Era una pregunta abierta del Paso 1. Los textos ya están en los dos idiomas.</span></li>
+          <li><b>¿Agregamos la sección “Cómo trabajo” al inicio?</b><span>Es nueva: explica el proceso en cuatro pasos y baja la duda de quien contrata por primera vez.</span></li>
+          <li><b>¿Publicamos precios desde o paquetes?</b><span>Mejora la conversión y responde la búsqueda “cuánto cobra un diseñador”. Si no, la pregunta frecuente queda como “se cotiza por proyecto”.</span></li>
+          <li><b>¿Incluimos la campaña política (Dr. Levano)?</b><span>Sigue fuera. Si entra, iría como caso aparte, no en la portada.</span></li>
+          <li><b>¿Dominio alanisromero.com?</b><span>Hay que confirmar que esté libre y comprarlo antes del Paso 6.</span></li>
+        </ol>
+        <div>
+          <h3 class="label" style="margin-bottom:14px">Lo que necesitamos de Alanis</h3>
+          <ul class="todo" id="todo"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <h2 class="d">Siguiente: <span class="hand">Next.js</span></h2>
+    <p>Con estos textos aprobados, el Paso 4 arma el proyecto en Next.js con el sistema Pop Nocturna, las dos versiones de idioma y las páginas de inicio, trabajo y casos.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+    del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
+  };
+  var D = {}, lang = store.get('seo-lang') === 'en' ? 'en' : 'es', current = store.get('seo-page') || 'home', items = [];
+  var CAT = { redes: ['Redes', 'Social'], branding: ['Branding', 'Branding'], editorial: ['Editorial', 'Editorial'], ilustracion: ['Ilustración', 'Illustration'], fotomontaje: ['Fotomontaje', 'Photomontage'], video: ['Video', 'Video'] };
+  // Palabra clave que mide cada página (la principal de su grupo o, en páginas sin grupo propio, la intención del título)
+  var KW = {
+    home: ['diseñadora gráfica freelance Lima', 'bilingual freelance graphic designer'],
+    work: ['portafolio de diseño gráfico', 'graphic design portfolio'],
+    services: ['servicios de diseño gráfico', 'graphic design services'],
+    'svc-social': ['diseño de redes sociales para marcas', 'social media design for brands'],
+    'svc-branding': ['diseño de identidad de marca', 'brand identity design'],
+    'svc-editorial': ['diseño editorial de revistas y libros', 'editorial design magazines books'],
+    'svc-illustration': ['ilustración para campañas y portadas', 'illustration campaigns book covers'],
+    'svc-video': ['edición de reels y videos cortos', 'short-form video editing reels'],
+    about: ['Alanis Romero diseñadora gráfica', 'Alanis Romero graphic designer'],
+    collaborate: ['colaboraciones creativas creadores', 'creative collaborations creators'],
+    contact: ['cotizar proyecto de diseño', 'quote design project']
+  };
+  var STOP = { de: 1, del: 1, para: 1, en: 1, y: 1, la: 1, el: 1, los: 1, las: 1, a: 1, con: 1, for: 1, and: 1, the: 1, of: 1, in: 1, to: 1 };
+  var norm = function (s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); };
+  var tokens = function (kw) { return norm(kw).split(/[^a-z0-9ñ]+/).filter(function (t) { return t && !STOP[t]; }); };
+  var stem = function (t) { return t.length > 5 ? t.slice(0, t.length - 2) : t.replace(/s$/, ''); };
+  var hasTok = function (text, t) { return norm(text).indexOf(stem(t)) !== -1; };
+
+  var canvas = document.createElement('canvas').getContext('2d');
+  var px = function (text, font) { canvas.font = font; return Math.round(canvas.measureText(text).width); };
+
+  Promise.all(['site', 'routes', 'pages', 'services', 'projects', 'seo'].map(function (n) {
+    return fetch('data/' + n + '.json').then(function (r) { if (!r.ok) throw new Error(n); return r.json(); }).then(function (j) { D[n] = j; });
+  })).then(boot).catch(function (e) {
+    $('#facts').innerHTML = '<span class="err">No se pudo cargar el contenido (' + esc(e.message) + '). Recarga la página.</span>';
+  });
+
+  function route(id) { for (var i = 0; i < D.routes.length; i++) if (D.routes[i].id === id) return D.routes[i]; return null; }
+  function svc(id) { for (var i = 0; i < D.services.length; i++) if (D.services[i].id === id) return D.services[i]; return null; }
+  function proj(slug) { for (var i = 0; i < D.projects.length; i++) if (D.projects[i].slug === slug) return D.projects[i]; return null; }
+
+  function boot() {
+    var pageLabels = { home: ['Inicio', 'Home'], work: ['Trabajo', 'Work'], services: ['Servicios', 'Services'], about: ['Sobre mí', 'About'], collaborate: ['Colabora', 'Collaborate'], contact: ['Contacto', 'Contact'] };
+    ['home', 'work', 'services', 'about', 'collaborate', 'contact'].forEach(function (k) { items.push({ key: k, kind: 'page', group: 'Páginas', label: pageLabels[k] }); });
+    D.services.forEach(function (s) { items.push({ key: s.id, kind: 'service', group: 'Servicios', label: [s.es.h1, s.en.h1] }); });
+    D.projects.forEach(function (p) { items.push({ key: 'p:' + p.slug, kind: 'project', group: 'Casos', label: [p.es.h1, p.en.h1] }); });
+    if (!items.some(function (i) { return i.key === current; })) current = 'home';
+
+    var nCases = D.projects.length, nPages = 6 + D.services.length;
+    var metas = (nPages + nCases) * 2;
+    $('#facts').innerHTML = '<span><b>' + nPages + '</b> páginas</span><span><b>' + nCases + '</b> casos de estudio</span><span><b>2</b> idiomas</span><span><b>' + metas + '</b> títulos y descripciones revisados</span><span><b>' + D.seo.clusters.length + '</b> grupos de palabras clave</span>';
+
+    renderKeywords(); renderRoutes(); renderTech(); renderTodo(); renderSide();
+    $('#lang-es').addEventListener('click', function () { setLang('es'); });
+    $('#lang-en').addEventListener('click', function () { setLang('en'); });
+    $('#page-select').addEventListener('change', function (e) { select(e.target.value); });
+    $('#f-title').addEventListener('input', function () { saveEdit(); paintSerp(); });
+    $('#f-desc').addEventListener('input', function () { saveEdit(); paintSerp(); });
+    $('#reset').addEventListener('click', function () { store.del(editKey('t')); store.del(editKey('d')); fillFields(); paintSerp(); flash('Volviste a la propuesta original.'); });
+    $('#copy').addEventListener('click', copyMeta);
+    setLang(lang, true);
+  }
+
+  function setLang(l, first) {
+    lang = l; store.set('seo-lang', l);
+    $('#lang-es').setAttribute('aria-pressed', String(l === 'es'));
+    $('#lang-en').setAttribute('aria-pressed', String(l === 'en'));
+    renderSide(); select(current, first);
+  }
+
+  function renderSide() {
+    var groups = {}, order = [], li = lang === 'en' ? 1 : 0;
+    items.forEach(function (it) { if (!groups[it.group]) { groups[it.group] = []; order.push(it.group); } groups[it.group].push(it); });
+    var gName = { 'Páginas': ['Páginas', 'Pages'], 'Servicios': ['Servicios', 'Services'], 'Casos': ['Casos de estudio', 'Case studies'] };
+    $('#side').innerHTML = order.map(function (g) {
+      return '<div><h4>' + gName[g][li] + '</h4><ul>' + groups[g].map(function (it) {
+        var ok = metaOk(it);
+        return '<li><button type="button" data-key="' + it.key + '" aria-current="' + (it.key === current) + '"><span>' + esc(it.label[li]) + '</span><span class="st' + (ok ? ' ok' : '') + '" title="' + (ok ? 'Título y descripción en rango' : 'Revisar largo') + '"></span></button></li>';
+      }).join('') + '</ul></div>';
+    }).join('');
+    $('#side').querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { select(b.dataset.key); }); });
+    $('#page-select').innerHTML = order.map(function (g) {
+      return '<optgroup label="' + gName[g][li] + '">' + groups[g].map(function (it) { return '<option value="' + it.key + '"' + (it.key === current ? ' selected' : '') + '>' + esc(it.label[li]) + '</option>'; }).join('') + '</optgroup>';
+    }).join('');
+  }
+
+  function itemByKey(k) { for (var i = 0; i < items.length; i++) if (items[i].key === k) return items[i]; return items[0]; }
+  function data(it) {
+    if (it.kind === 'page') return D.pages[it.key][lang];
+    if (it.kind === 'service') return svc(it.key)[lang];
+    return proj(it.key.slice(2))[lang];
+  }
+  function proposed(it) {
+    var d = data(it);
+    return { title: d.titleAbsolute ? d.titleAbsolute : d.title + D.site.titleSuffix, desc: d.description };
+  }
+  function urlOf(it) {
+    var r = it.kind === 'project' ? route('project') : route(it.key);
+    var path = r[lang];
+    if (it.kind === 'project') path = path.replace('[slug]', it.key.slice(2));
+    return D.site.domain + (path === '/' ? '' : path);
+  }
+  function kwOf(it) {
+    if (it.kind === 'project') { var p = proj(it.key.slice(2)); return p[lang].h1 + ' ' + CAT[p.cats[0]][lang === 'en' ? 1 : 0]; }
+    return KW[it.key][lang === 'en' ? 1 : 0];
+  }
+  function metaOk(it) {
+    var m = proposed(it);
+    return m.title.length >= 45 && m.title.length <= 60 && m.desc.length >= 140 && m.desc.length <= 160;
+  }
+  function editKey(t) { return 'seo-edit:' + lang + ':' + current + ':' + t; }
+  function saveEdit() { store.set(editKey('t'), $('#f-title').value); store.set(editKey('d'), $('#f-desc').value); }
+  function fillFields() {
+    var it = itemByKey(current), m = proposed(it);
+    $('#f-title').value = store.get(editKey('t')) || m.title;
+    $('#f-desc').value = store.get(editKey('d')) || m.desc;
+  }
+
+  function select(key, first) {
+    current = key; store.set('seo-page', key);
+    document.querySelectorAll('#side button').forEach(function (b) { b.setAttribute('aria-current', String(b.dataset.key === key)); });
+    $('#page-select').value = key;
+    fillFields(); paintSerp(); renderDoc();
+    if (!first && innerWidth > 900) { var box = $('#serp-box').getBoundingClientRect(); if (box.top < 70 || box.top > innerHeight) $('#paginas').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  }
+
+  // Resalta en negrita las palabras de la búsqueda, como hace Google (compara raíces sin acentos)
+  function highlight(text, toks) {
+    var stems = toks.map(stem).filter(function (s) { return s.length >= 3; });
+    return text.split(/([0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+)/).map(function (part, i) {
+      if (i % 2 === 1 && stems.some(function (s) { return norm(part).indexOf(s) === 0; })) return '<em>' + esc(part) + '</em>';
+      return esc(part);
+    }).join('');
+  }
+
+  function paintSerp() {
+    var it = itemByKey(current), title = $('#f-title').value.trim(), desc = $('#f-desc').value.trim();
+    var kw = kwOf(it), toks = tokens(kw);
+    var u = urlOf(it).replace(/^https:\/\//, ''), parts = u.split('/');
+    $('#g-url').textContent = 'https://' + parts[0] + (parts.length > 1 ? ' › ' + parts.slice(1).join(' › ') : '');
+    var tw = px(title, '20px Arial'), dw = px(desc, '14px Arial');
+    var shown = title;
+    if (tw > 580) { while (shown.length && px(shown + ' …', '20px Arial') > 580) shown = shown.slice(0, -1); }
+    $('#g-title').innerHTML = highlight(shown, toks); $('#g-title').classList.toggle('cut', shown !== title);
+    var dShown = desc.length > 160 ? desc.slice(0, 157).replace(/\s+\S*$/, '') + ' …' : desc;
+    $('#g-desc').innerHTML = highlight(dShown, toks);
+    $('#kw-target').textContent = (lang === 'es' ? 'Mide: ' : 'Target: ') + kw;
+    var tl = title.length, dl = desc.length;
+    var tOk = tl >= 45 && tl <= 60, dOk = dl >= 140 && dl <= 160;
+    $('#c-title').textContent = tl + ' caracteres · ' + tw + ' px de 580'; $('#c-title').classList.toggle('bad', !tOk || tw > 580);
+    $('#c-desc').textContent = dl + ' caracteres · ideal 140–160'; $('#c-desc').classList.toggle('bad', !dOk);
+    $('#m-title i').style.width = Math.min(100, tw / 580 * 100) + '%'; $('#m-title').classList.toggle('bad', tw > 580 || !tOk);
+    $('#m-desc i').style.width = Math.min(100, dl / 160 * 100) + '%'; $('#m-desc').classList.toggle('bad', !dOk);
+    var inTitle = toks.filter(function (t) { return hasTok(title, t); }).length, inDesc = toks.filter(function (t) { return hasTok(desc, t); }).length;
+    var checks = [
+      [tOk, 'Título de ' + tl + ' caracteres (ideal 50–60)'],
+      [tw <= 580, tw <= 580 ? 'El título entra completo en Google' : 'Google cortará el título'],
+      [dOk, 'Descripción de ' + dl + ' caracteres'],
+      [inTitle >= Math.ceil(toks.length * 0.6), 'Palabra clave en el título (' + inTitle + '/' + toks.length + ')'],
+      [inDesc >= Math.ceil(toks.length * 0.5), 'Palabra clave en la descripción (' + inDesc + '/' + toks.length + ')']
+    ];
+    $('#checks').innerHTML = checks.map(function (c) { return '<span class="chk' + (c[0] ? '' : ' warn') + '"><svg class="ico" aria-hidden="true"><use href="#i-' + (c[0] ? 'check' : 'warn') + '"/></svg>' + esc(c[1]) + '</span>'; }).join('');
+  }
+
+  function flash(t) { $('#status').textContent = t; clearTimeout(flash.t); flash.t = setTimeout(function () { $('#status').textContent = ''; }, 2600); }
+  function copyMeta() {
+    var text = 'Título: ' + $('#f-title').value.trim() + '\nDescripción: ' + $('#f-desc').value.trim();
+    var done = function () { flash('Copiado. Pégalo en el chat para que lo apliquemos.'); };
+    var fallback = function () { var t = $('#f-desc'); t.focus(); t.select(); flash('Selecciona y copia el texto con Ctrl+C.'); };
+    try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+  }
+
+  var L = function (es, en) { return lang === 'en' ? en : es; };
+  function blk(label, html) { return '<div class="blk"><span class="label">' + label + '</span><div style="display:grid;gap:10px;min-width:0">' + html + '</div></div>'; }
+  function steps(list) { return '<ol>' + list.map(function (s) { return '<li><b>' + esc(s[0]) + '.</b> ' + esc(s[1]) + '</li>'; }).join('') + '</ol>'; }
+
+  function renderDoc() {
+    var it = itemByKey(current), d = data(it), h = [];
+    if (it.kind === 'page') {
+      if (d.eyebrow) h.push(blk(L('Antetítulo', 'Eyebrow'), '<p class="label" style="color:var(--ink)">' + esc(d.eyebrow) + '</p>'));
+      h.push(blk('H1', '<h1 class="d">' + esc(d.h1) + '</h1>' + (d.h1Note ? '<p style="font-size:14px;color:var(--muted)">' + esc(d.h1Note) + '</p>' : '')));
+      if (d.lead) h.push(blk(L('Entradilla', 'Lead'), '<p class="lead">' + esc(d.lead) + '</p>'));
+      if (d.ctas) h.push(blk(L('Botones', 'Buttons'), '<div class="pills">' + d.ctas.map(function (c, i) { return '<span class="pill' + (i ? ' alt' : '') + '">' + esc(c) + '</span>'; }).join('') + '</div>'));
+      if (d.bio) h.push(blk('Bio', d.bio.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('')));
+      (d.sections || []).forEach(function (s) {
+        var body = '<h2 class="d">' + esc(s.h2) + (s['new'] ? ' <span class="tag t-new">' + L('Nuevo', 'New') + '</span>' : '') + (s.pending ? ' <span class="tag t-pend">' + L('Pendiente', 'Pending') + '</span>' : '') + '</h2>';
+        if (s.body) body += '<p>' + esc(s.body) + '</p>';
+        if (s.steps) body += steps(s.steps);
+        if (s.items) body += '<ul>' + s.items.map(function (x) { return '<li><b style="color:var(--ink)">' + esc(x[0]) + ':</b> ' + esc(x[1]) + '</li>'; }).join('') + '</ul>';
+        if (s.cta) body += '<div class="pills"><span class="pill alt">' + esc(s.cta) + '</span></div>';
+        h.push(blk('H2', body));
+      });
+      if (d.cta) h.push(blk(L('Botón', 'Button'), '<div class="pills"><span class="pill">' + esc(d.cta) + '</span></div>'));
+      if (d.faq) h.push(blk(L('Preguntas', 'FAQ'), '<div class="faq">' + d.faq.map(function (f) { return '<div><b>' + esc(f[0]) + '</b><p>' + esc(f[1]) + '</p></div>'; }).join('') + '</div><p style="font-size:14px;color:var(--muted)">' + L('Con datos estructurados FAQPage.', 'With FAQPage structured data.') + '</p>'));
+      if (it.key === 'about') h.push(blk(L('Después', 'Then'), '<p>' + L('Experiencia, formación, herramientas e idiomas salen del CV (ver prototipo del Paso 1b).', 'Experience, education, tools and languages come from the CV (see the Step 1b prototype).') + '</p>'));
+    } else if (it.kind === 'service') {
+      var s = svc(it.key);
+      h.push(blk('H1', '<h1 class="d">' + esc(d.h1) + '</h1><p class="lead">' + esc(d.short) + '</p>'));
+      h.push(blk(L('Entradilla', 'Lead'), '<p>' + esc(d.intro) + '</p>'));
+      h.push(blk('H2', '<h2 class="d">' + L('Qué incluye', "What's included") + '</h2><ul>' + d.includes.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>'));
+      h.push(blk('H2', '<h2 class="d">' + L('Para quién es', "Who it's for") + '</h2><p>' + esc(d.forWho) + '</p>'));
+      h.push(blk('H2', '<h2 class="d">' + L('Cómo trabajo', 'How I work') + '</h2>' + steps(D.pages.services[lang].sections[0].steps)));
+      h.push(blk('H2', '<h2 class="d">' + L('Proyectos relacionados', 'Related projects') + '</h2><div class="rel">' + s.projects.map(function (slug) { var p = proj(slug); return '<button type="button" data-go="p:' + slug + '">' + esc(p[lang].h1) + '</button>'; }).join('') + '</div>'));
+      h.push(blk(L('Preguntas', 'FAQ'), '<div class="faq">' + d.faq.map(function (f) { return '<div><b>' + esc(f[0]) + '</b><p>' + esc(f[1]) + '</p></div>'; }).join('') + '</div>'));
+      h.push(blk(L('Botón', 'Button'), '<div class="pills"><span class="pill">' + L('Cotizar este servicio', 'Get a quote') + '</span></div>'));
+    } else {
+      var p = proj(it.key.slice(2)), es = p.es;
+      h.push(blk(L('Categorías', 'Categories'), '<div class="pills">' + p.cats.map(function (c) { return '<span class="tag t-' + c + '">#' + CAT[c][lang === 'en' ? 1 : 0] + '</span>'; }).join(' ') + '</div>'));
+      h.push(blk('H1', '<h1 class="d">' + esc(d.h1) + '</h1><span class="sub">' + esc(d.subtitle) + '</span>'));
+      h.push(blk(L('Resumen', 'Summary'), '<p class="lead">' + esc(d.summary) + '</p><p style="font-size:14px;color:var(--muted)">' + L('Se usa en la ventana del proyecto y en la tarjeta para compartir.', 'Used in the project window and in the share card.') + '</p>'));
+      var piecesText = (lang === 'en' && p.en && p.en.pieces) ? p.en.pieces : es.pieces;
+      h.push(blk('H2', '<h2 class="d">' + L('Las piezas', 'The pieces') + '</h2><p>' + esc(piecesText) + '</p>'));
+      h.push(blk('H2', '<h2 class="d">' + L('El encargo y el resultado', 'Brief and results') + ' <span class="tag t-pend">' + L('Pendiente', 'Pending') + '</span></h2><p>' + L('Falta el contexto real: para quién fue, qué se pedía y, si existe, una cifra de resultado.', 'Missing real context: who it was for, what was asked and, if available, a result figure.') + '</p>'));
+      h.push(blk(L('Imágenes y alt', 'Images and alt'), '<div class="imgs">' + p.images.map(function (src, i) { return '<figure><img src="img/' + esc(src) + '" alt="' + esc(p.alt[i] || p.es.h1) + '" loading="lazy"><figcaption>alt: ' + esc(p.alt[i] || '') + '</figcaption></figure>'; }).join('') + '</div>'));
+      if (p.pending && p.pending.length) h.push(blk(L('Falta', 'Missing'), '<div class="pending"><b>' + L('Preguntas para Alanis', 'Questions for Alanis') + '</b><ul>' + p.pending.map(function (q) { return '<li>' + esc(q) + '</li>'; }).join('') + '</ul></div>'));
+    }
+    $('#doc').innerHTML = h.join('');
+    $('#doc').querySelectorAll('[data-go]').forEach(function (b) { b.addEventListener('click', function () { select(b.dataset.go); }); });
+  }
+
+  function renderKeywords() {
+    var label = function (r) { var x = route(r); return x ? '<code>' + esc(x.es) + '</code>' + (x.en ? '<br><code>' + esc(x.en) + '</code>' : '') : '<span class="sec">Artículos, fase 2</span>'; };
+    $('#kw-body').innerHTML = D.seo.clusters.slice().sort(function (a, b) { return a.priority - b.priority; }).map(function (c) {
+      return '<tr><td><span class="tag t-p' + c.priority + '">P' + c.priority + '</span></td><td><b>' + esc(c.name) + '</b><br><span class="tag t-' + c.lang + '" style="margin-top:6px">' + c.lang.toUpperCase() + '</span></td><td><span class="kw">' + esc(c.primary) + '</span><span class="sec">' + c.secondary.map(esc).join(' · ') + '</span>' + (c.serp ? '<span class="serp">' + esc(c.serp) + '</span>' : '') + '</td><td>' + esc(c.intent) + '<br><span class="sec">' + esc(c.content) + '</span></td><td>' + label(c.route) + '</td></tr>';
+    }).join('');
+    $('#kw-note').textContent = D.seo.notes;
+  }
+  function renderRoutes() {
+    $('#routes-body').innerHTML = D.routes.map(function (r) { return '<tr><td><b>' + esc(r.type) + '</b></td><td><span class="route">' + esc(r.es) + '</span></td><td><span class="route">' + esc(r.en) + '</span></td><td class="mono">' + r.priority.toFixed(1) + '</td></tr>'; }).join('');
+  }
+  function renderTech() {
+    $('#tech').innerHTML = D.seo.technical.map(function (t) { return '<li><b>' + esc(t[0]) + '</b><span>' + esc(t[1]) + '</span></li>'; }).join('');
+    $('#offpage').innerHTML = D.seo.offpage.map(function (t) { return '<li><b>' + esc(t[0]) + '</b><span>' + esc(t[1]) + '</span></li>'; }).join('');
+    $('#schema').textContent = JSON.stringify([D.seo.schema.Person, D.seo.schema.ProfessionalService], null, 2);
+  }
+  function renderTodo() {
+    var list = [
+      ['Foto profesional a color', 'La actual es una selfie en blanco y negro; se usa en Sobre mí, LinkedIn y los marketplaces.'],
+      ['Contexto de 8 casos destacados', 'Para quién fue, qué se pedía y un resultado. Las preguntas de cada caso están en “Páginas”.'],
+      ['Dos o tres testimonios con permiso', 'SOCOHUA, Brigham Young School u Otro Maldito Podcast.'],
+      ['Precios desde o paquetes', 'O confirmar que se cotiza por proyecto.'],
+      ['Usuarios de Instagram, TikTok, Upwork y Fiverr', 'Para enlazarlos en el pie y en los datos estructurados.'],
+      ['Imágenes en alta de cada proyecto', 'Las actuales salen del PDF del portafolio y pierden calidad.'],
+      ['Revisar la bio en primera persona', 'Que suene a ella; está en Sobre mí, en español e inglés.']
+    ];
+    var withPending = D.projects.filter(function (p) { return p.pending && p.pending.length; }).length;
+    list[1][1] = withPending + ' casos tienen preguntas abiertas: para quién fue, qué se pedía y un resultado. Están en “Páginas”, dentro de cada caso.';
+    $('#todo').innerHTML = list.map(function (x) { return '<li><span>' + esc(x[0]) + '<small>' + esc(x[1]) + '</small></span></li>'; }).join('');
+  }
+})();
+</script>
+</body>
+</html>

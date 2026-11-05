@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trabajo · Alanis Romero</title>
+<meta name="description" content="Portafolio de Alanis Romero, diseñadora gráfica freelance en Lima: redes sociales, branding, diseño editorial, ilustración y video corto.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Delicious+Handrawn&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs><filter id="rough" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter></defs>
+  <symbol id="ast" viewBox="0 0 100 100"><g stroke="currentColor" stroke-width="11" stroke-linecap="round" fill="none" filter="url(#rough)"><path d="M50 50 L51 8"/><path d="M50 50 L81 20"/><path d="M50 50 L92 53"/><path d="M50 50 L79 81"/><path d="M50 50 L47 93"/><path d="M50 50 L19 82"/><path d="M50 50 L7 46"/><path d="M50 50 L21 18"/></g></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 8.5A1.5 1.5 0 0 1 4.5 7H7l1.5-2.5h7L17 7h2.5A1.5 1.5 0 0 1 21 8.5V18a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18z"/><circle cx="12" cy="13" r="3.6"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 21l-7-7 3-8 4-3 4 3 3 8z"/><circle cx="12" cy="11.5" r="1.6"/><path d="M12 3v6.9"/></symbol>
+</svg>
+<header class="top">
+  <div class="top-in">
+    <a class="logo" href="./" aria-label="Alanis Romero, inicio"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg><span>Alanis<br>Romero</span></a>
+    <nav class="boxes" aria-label="Principal">
+      <a href="trabajo.html" aria-current="page">Trabajo</a>
+      <a href="./#servicios">Servicios</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="top-r"><span class="lang" role="group" aria-label="Language"><button type="button" class="lang-btn active" data-lang="es">ES</button> / <button type="button" class="lang-btn" data-lang="en">EN</button></span><a class="cta-out" href="contacto.html"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg>Hablemos</a></div>
+  </div>
+</header>
+<main>
+<section class="wrap page-hero">
+  <p class="eyebrow rise"><span class="dot"></span>Portafolio</p>
+  <h1 class="d page-title rise r2">Trabajo</h1>
+  <p class="lead rise r3">Doce proyectos de redes sociales, branding, diseño editorial, ilustración, fotomontaje y video corto.</p>
+</section>
+<section class="panel panel-white">
+  <div class="wrap">
+    <div class="tools">
+      <label class="sort" for="sort"><span>Orden</span><select id="sort"><option value="featured">Destacados</option><option value="az">A–Z</option></select></label>
+      <label class="search" for="q"><span class="sr-only">Buscar proyectos</span><input id="q" type="search" placeholder="Buscar" autocomplete="off"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg></label>
+      <div class="tags-filter" role="group" aria-label="Filtrar por tipo de proyecto">
+        <button type="button" class="tf" data-cat="all" aria-pressed="true">#Todo</button>
+        <button type="button" class="tf" data-cat="redes" aria-pressed="false">#Redes</button>
+        <button type="button" class="tf" data-cat="branding" aria-pressed="false">#Branding</button>
+        <button type="button" class="tf" data-cat="editorial" aria-pressed="false">#Editorial</button>
+        <button type="button" class="tf" data-cat="ilustracion" aria-pressed="false">#Ilustración</button>
+        <button type="button" class="tf" data-cat="fotomontaje" aria-pressed="false">#Fotomontaje</button>
+        <button type="button" class="tf" data-cat="video" aria-pressed="false">#Video</button>
+      </div>
+    </div>
+    <p class="count" id="count" aria-live="polite">12 proyectos</p>
+    <div class="grid" id="work"></div>
+    <p class="empty" id="empty" hidden>No hay proyectos con ese filtro. Prueba con otra palabra o elige #Todo.</p>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-big">
+      <h2 class="d foot-title">Creemos algo<br><span class="hand">que brille</span></h2>
+      <div class="sun" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#ast"/></svg></div>
+    </div>
+    <div class="foot-cards">
+      <a class="foot-card bg-honey" href="contacto.html"><small>Para marcas y empresas</small><b>Cuéntame tu proyecto</b><span>Redes, branding, editorial e ilustración</span></a>
+      <a class="foot-card bg-pink" href="contacto.html#creadores"><small>Para creadores</small><b>Hagamos una colab</b><span>Fotografía, ilustración, música o podcast</span></a>
+    </div>
+    <div class="foot-bottom">
+      <span class="mail">alanisbloom27@gmail.com</span>
+      <nav aria-label="Redes"><a href="https://www.behance.net/alanisromero2">Behance</a><a href="https://www.linkedin.com/in/alanis-romero">LinkedIn</a><span class="soon" title="Usuario pendiente">Instagram</span></nav>
+      <span>© 2026 Alanis Romero · Diseñadora gráfica freelance · Lima, Perú</span>
+    </div>
+  </div>
+</footer>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="modal-back" data-close></div>
+  <article class="modal-card">
+    <div class="m-bar"><span class="who">Alanis Romero</span><span id="m-tag"></span><button type="button" class="m-x" data-close aria-label="Cerrar proyecto"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+    <h2 class="d m-title" id="m-title"></h2>
+    <div class="m-meta"><p id="m-desc"></p><div class="m-tags" id="m-tags"></div></div>
+    <div class="m-imgs" id="m-imgs"></div>
+    <div class="m-foot"><a class="btn btn-ink" id="m-link" href="#">Ver caso completo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+  </article>
+</div>
+<a class="demo-badge" href="notas.html"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg>Prototipo · Paso 1 — ver notas</a>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

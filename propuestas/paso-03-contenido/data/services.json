@@ -1,0 +1,295 @@
+[
+  {
+    "id": "svc-social",
+    "cat": "redes",
+    "projects": [
+      "century-21",
+      "ano-nuevo-chino",
+      "dia-de-reyes"
+    ],
+    "es": {
+      "title": "Diseño de redes sociales para marcas",
+      "description": "Posts, carruseles e historias para Instagram, TikTok, Facebook y LinkedIn con la identidad de tu marca. Diseño freelance desde Lima para todo el mundo.",
+      "h1": "Diseño para redes sociales",
+      "short": "Posts, carruseles e historias con coherencia de marca, pensados para detener el scroll.",
+      "intro": "Tu feed es la primera impresión de tu marca. Diseño piezas coherentes entre sí, fáciles de reconocer y pensadas para que la gente se detenga a leerlas.",
+      "includes": [
+        "Posts y carruseles para Instagram, Facebook y LinkedIn",
+        "Historias y portadas de destacados",
+        "Plantillas editables en Canva para tu equipo",
+        "Adaptación de cada pieza a los formatos de cada red",
+        "Textos para acompañar cada publicación"
+      ],
+      "forWho": "Marcas pequeñas y medianas, emprendimientos, inmobiliarias, colegios y agencias que necesitan apoyo de diseño constante.",
+      "faq": [
+        [
+          "¿También escribes los textos?",
+          "Sí. Puedo escribir el texto de cada publicación con el tono de tu marca, en español o en inglés."
+        ],
+        [
+          "¿Haces gestión de redes o pauta?",
+          "Me enfoco en el diseño y los textos. Si también necesitas gestión de comunidad o anuncios, cuéntame y vemos cómo coordinarlo con tu equipo o agencia."
+        ]
+      ]
+    },
+    "en": {
+      "title": "Bilingual Social Media Design for Brands",
+      "description": "Posts, carousels and stories for Instagram, TikTok, Facebook and LinkedIn that match your brand, in English or Spanish. Freelance design from Lima, Peru.",
+      "h1": "Social media design",
+      "short": "Posts, carousels and stories that stay on brand and stop the scroll.",
+      "intro": "Your feed is your brand's first impression. I design pieces that work together, are easy to recognize and make people stop to read them.",
+      "includes": [
+        "Posts and carousels for Instagram, Facebook and LinkedIn",
+        "Stories and highlight covers",
+        "Editable Canva templates for your team",
+        "Each piece adapted to every platform's formats",
+        "Captions to go with each post"
+      ],
+      "forWho": "Small and mid-sized brands, startups, real estate agencies, schools and agencies that need steady design support.",
+      "faq": [
+        [
+          "Do you write the captions too?",
+          "Yes. I can write each caption in your brand's voice, in English or Spanish."
+        ],
+        [
+          "Do you manage accounts or ads?",
+          "I focus on design and captions. If you also need community management or ads, let me know and we'll coordinate with your team or agency."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "svc-branding",
+    "cat": "branding",
+    "projects": [
+      "socohua",
+      "jakon-crm",
+      "vampbook"
+    ],
+    "es": {
+      "title": "Diseño de branding e identidad de marca",
+      "description": "Logotipo, paleta, tipografías y manual de marca para que tu negocio se vea igual de bien en redes, papelería y merchandising. Diseño freelance en Lima.",
+      "h1": "Branding e identidad",
+      "short": "Logotipo, paleta, tipografías y manual para que todo se vea de la misma familia.",
+      "intro": "Una identidad clara hace que tu marca se reconozca en cualquier lugar. Diseño el sistema completo y te dejo un manual para que se use bien.",
+      "includes": [
+        "Logotipo y sus variaciones (vertical, horizontal, monocromo)",
+        "Paleta de colores con códigos para pantalla e imprenta",
+        "Tipografías y jerarquía de textos",
+        "Manual de marca con usos correctos e incorrectos",
+        "Aplicaciones: papelería, merchandising y uniformes"
+      ],
+      "forWho": "Emprendimientos que empiezan, negocios que quieren ordenar su imagen y marcas que necesitan un manual para trabajar con proveedores.",
+      "faq": [
+        [
+          "¿Qué incluye un manual de marca?",
+          "Las versiones del logotipo, la paleta con códigos Pantone, RGB y CMYK, las tipografías, ejemplos de uso correcto e incorrecto y aplicaciones. El manual de Jakon CRM es un ejemplo."
+        ],
+        [
+          "¿Puedes renovar un logo que ya tengo?",
+          "Sí. Partimos de lo que ya funciona en tu marca y lo ordenamos o actualizamos."
+        ]
+      ]
+    },
+    "en": {
+      "title": "Brand Identity Design and Brand Guidelines",
+      "description": "Logo, palette, typography and brand guidelines so your business looks great on social media, stationery and merchandise. Freelance brand designer in Lima.",
+      "h1": "Brand identity",
+      "short": "Logo, palette, typography and guidelines so everything looks like one family.",
+      "intro": "A clear identity makes your brand recognizable anywhere. I design the full system and leave you a guide so it's used the right way.",
+      "includes": [
+        "Logo and its variations (vertical, horizontal, one-color)",
+        "Color palette with screen and print codes",
+        "Typefaces and text hierarchy",
+        "Brand guidelines with do's and don'ts",
+        "Applications: stationery, merchandise and uniforms"
+      ],
+      "forWho": "New businesses, companies that want to tidy up their image and brands that need guidelines to work with suppliers.",
+      "faq": [
+        [
+          "What's included in brand guidelines?",
+          "Logo versions, the palette with Pantone, RGB and CMYK codes, typefaces, do's and don'ts and applications. The Jakon CRM guide is an example."
+        ],
+        [
+          "Can you refresh a logo I already have?",
+          "Yes. We start from what already works in your brand and tidy it up or update it."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "svc-editorial",
+    "cat": "editorial",
+    "projects": [
+      "macbeth",
+      "the-prodigal",
+      "alphabet"
+    ],
+    "es": {
+      "title": "Diseño editorial de revistas y libros",
+      "description": "Maquetación de revistas, libros, catálogos y documentos, más carteles con tipografía e ilustración. Jerarquía clara, lectura cómoda y archivos para imprimir.",
+      "h1": "Diseño editorial",
+      "short": "Revistas, libros, carteles y documentos con jerarquía clara y lectura cómoda.",
+      "intro": "Un buen diseño editorial se nota porque se lee sin esfuerzo. Ordeno textos e imágenes para que cada página guíe la lectura.",
+      "includes": [
+        "Maquetación de revistas, libros y catálogos",
+        "Documentos corporativos e informes",
+        "Carteles y afiches",
+        "Portadas",
+        "Archivos para imprenta o PDF interactivo"
+      ],
+      "forWho": "Editoriales pequeñas, autores, colegios, instituciones y marcas que publican catálogos o documentos.",
+      "faq": [
+        [
+          "¿Trabajas con InDesign?",
+          "Sí. Maqueto en InDesign y entrego los archivos abiertos y el PDF final para imprenta o pantalla."
+        ],
+        [
+          "¿Puedes diseñar solo la portada?",
+          "Sí. También diseño portadas sueltas, con ilustración o con tipografía."
+        ]
+      ]
+    },
+    "en": {
+      "title": "Editorial Design for Magazines and Books",
+      "description": "Layout for magazines, books, catalogs and documents, plus posters built with typography and illustration. Clear hierarchy, easy reading and print-ready files.",
+      "h1": "Editorial design",
+      "short": "Magazines, books, posters and documents with clear hierarchy and easy reading.",
+      "intro": "Good editorial design shows when reading feels effortless. I organize text and images so every page guides the reader.",
+      "includes": [
+        "Layout for magazines, books and catalogs",
+        "Corporate documents and reports",
+        "Posters",
+        "Covers",
+        "Print-ready files or interactive PDFs"
+      ],
+      "forWho": "Small publishers, authors, schools, institutions and brands that publish catalogs or documents.",
+      "faq": [
+        [
+          "Do you work in InDesign?",
+          "Yes. I lay out in InDesign and deliver the open files plus the final PDF for print or screen."
+        ],
+        [
+          "Can you design just the cover?",
+          "Yes. I also design standalone covers, illustrated or typographic."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "svc-illustration",
+    "cat": "ilustracion",
+    "projects": [
+      "for-a-clean-world",
+      "the-book-thief",
+      "vampbook"
+    ],
+    "es": {
+      "title": "Ilustración para campañas y portadas",
+      "description": "Ilustración vectorial para campañas, portadas de libros, carteles y redes sociales, con un estilo que se adapta a tu marca. Ilustradora freelance en Lima.",
+      "h1": "Ilustración",
+      "short": "Ilustraciones para campañas, portadas y piezas que necesitan voz propia.",
+      "intro": "Una ilustración cuenta en una imagen lo que tomaría párrafos explicar. Dibujo piezas con carácter que se integran con tu identidad.",
+      "includes": [
+        "Ilustración para campañas y carteles",
+        "Portadas de libros",
+        "Ilustraciones para redes sociales",
+        "Personajes y logotipos ilustrados",
+        "Archivos vectoriales escalables"
+      ],
+      "forWho": "Organizaciones con campañas, autores y editoriales, y marcas que quieren un estilo propio en redes.",
+      "faq": [
+        [
+          "¿En qué estilo ilustras?",
+          "Trabajo sobre todo en ilustración vectorial plana con texturas sutiles. En los proyectos puedes ver el rango."
+        ],
+        [
+          "¿Entregas archivos editables?",
+          "Sí. Entrego los vectores para que la ilustración se use a cualquier tamaño."
+        ]
+      ]
+    },
+    "en": {
+      "title": "Illustration for Campaigns and Book Covers",
+      "description": "Vector illustration for campaigns, book covers, posters and social media, with a style of its own that adapts to your brand. Freelance illustrator in Lima.",
+      "h1": "Illustration",
+      "short": "Illustrations for campaigns, covers and pieces that need a voice of their own.",
+      "intro": "An illustration says in one image what would take paragraphs to explain. I draw pieces with character that fit your identity.",
+      "includes": [
+        "Illustration for campaigns and posters",
+        "Book covers",
+        "Illustrations for social media",
+        "Characters and illustrated logos",
+        "Scalable vector files"
+      ],
+      "forWho": "Organizations running campaigns, authors and publishers, and brands that want their own style on social media.",
+      "faq": [
+        [
+          "What's your illustration style?",
+          "Mostly flat vector illustration with subtle textures. You can see the range in my projects."
+        ],
+        [
+          "Do you deliver editable files?",
+          "Yes. I deliver the vectors so the illustration can be used at any size."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "svc-video",
+    "cat": "video",
+    "projects": [
+      "otro-maldito-podcast"
+    ],
+    "es": {
+      "title": "Edición de reels y videos cortos para redes",
+      "description": "Convierto episodios de podcast y videos largos en reels, TikToks y shorts con subtítulos y textos para cada red. Más de 40 videos para Otro Maldito Podcast.",
+      "h1": "Video corto",
+      "short": "Reels y TikToks a partir de contenido largo, con subtítulos y textos para cada red.",
+      "intro": "Un episodio de una hora tiene decenas de momentos que merecen su propio clip. Los encuentro, los edito y los preparo para cada red.",
+      "includes": [
+        "Selección de los mejores momentos",
+        "Edición vertical para Reels, TikTok y Shorts",
+        "Subtítulos y textos en pantalla",
+        "Portadas para cada video",
+        "Textos de publicación para cada red"
+      ],
+      "forWho": "Podcasts, creadores de contenido y marcas con videos largos que quieren más alcance en redes.",
+      "faq": [
+        [
+          "¿Con qué programas editas?",
+          "Con CapCut y Filmora, y uso imágenes de apoyo cuando el clip lo necesita."
+        ],
+        [
+          "¿Cuántos videos salen de un episodio?",
+          "Depende del episodio. En Otro Maldito Podcast, cada episodio de una hora se convierte en varios clips de un minuto."
+        ]
+      ]
+    },
+    "en": {
+      "title": "Reels and Short-Form Video Editing",
+      "description": "I turn podcast episodes and long videos into Reels, TikToks and Shorts with captions and copy for each platform. 40+ videos edited for Otro Maldito Podcast.",
+      "h1": "Short-form video",
+      "short": "Reels and TikToks from long-form content, with captions and copy for each platform.",
+      "intro": "A one-hour episode holds dozens of moments that deserve their own clip. I find them, edit them and get them ready for each platform.",
+      "includes": [
+        "Picking the best moments",
+        "Vertical editing for Reels, TikTok and Shorts",
+        "Subtitles and on-screen text",
+        "Cover frames for each video",
+        "Captions for each platform"
+      ],
+      "forWho": "Podcasts, content creators and brands with long videos that want more reach on social media.",
+      "faq": [
+        [
+          "What do you edit with?",
+          "CapCut and Filmora, plus supporting images when a clip needs them."
+        ],
+        [
+          "How many videos come out of one episode?",
+          "It depends on the episode. For Otro Maldito Podcast, each one-hour episode becomes several one-minute clips."
+        ]
+      ]
+    }
+  }
+]
