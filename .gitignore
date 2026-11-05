@@ -1,9 +1,10 @@
 # dependencias
 node_modules/
 
-# Next.js
-.next/
+# builds
+dist/
 out/
+.next/
 next-env.d.ts
 *.tsbuildinfo
 
