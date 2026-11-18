@@ -587,28 +587,40 @@ if (modal) {
   if (fromHash && PROJECTS.some(p => p.slug === fromHash)) motionReady.then(() => openProject(fromHash));
 }
 
-/* ───── Stickers que siguen al mouse (paralaje suave) ───── */
+/* ───── Paralaje del collage ─────
+   Con mouse: las piezas siguen al puntero. Sin mouse (teléfonos y tablets): se desplazan a distinta
+   velocidad con el scroll, según su profundidad. */
 const par = $('[data-parallax]');
 if (par && !reduce) {
   const items = $$('[data-depth]', par);
-  let tx = 0, ty = 0, cx = 0, cy = 0, raf = 0;
-  const tick = () => {
-    raf = 0;
-    cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
-    items.forEach(el => {
-      const d = +el.dataset.depth;
-      el.style.setProperty('--px', (cx * d).toFixed(2) + 'px');
-      el.style.setProperty('--py', (cy * d).toFixed(2) + 'px');
+  if (matchMedia('(hover: none)').matches) {
+    let ticking = false;
+    const onScroll = () => {
+      ticking = false;
+      const p = Math.max(0, Math.min(1, -par.getBoundingClientRect().top / innerHeight));
+      items.forEach(el => el.style.setProperty('--py', (p * -el.dataset.depth * 1.4).toFixed(1) + 'px'));
+    };
+    addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  } else {
+    let tx = 0, ty = 0, cx = 0, cy = 0, raf = 0;
+    const tick = () => {
+      raf = 0;
+      cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+      items.forEach(el => {
+        const d = +el.dataset.depth;
+        el.style.setProperty('--px', (cx * d).toFixed(2) + 'px');
+        el.style.setProperty('--py', (cy * d).toFixed(2) + 'px');
+      });
+      if (Math.abs(tx - cx) > 0.001 || Math.abs(ty - cy) > 0.001) raf = requestAnimationFrame(tick);
+    };
+    par.addEventListener('pointermove', e => {
+      const r = par.getBoundingClientRect();
+      tx = (e.clientX - r.left) / r.width - 0.5;
+      ty = (e.clientY - r.top) / r.height - 0.5;
+      if (!raf) raf = requestAnimationFrame(tick);
     });
-    if (Math.abs(tx - cx) > 0.001 || Math.abs(ty - cy) > 0.001) raf = requestAnimationFrame(tick);
-  };
-  par.addEventListener('pointermove', e => {
-    const r = par.getBoundingClientRect();
-    tx = (e.clientX - r.left) / r.width - 0.5;
-    ty = (e.clientY - r.top) / r.height - 0.5;
-    if (!raf) raf = requestAnimationFrame(tick);
-  });
-  par.addEventListener('pointerleave', () => { tx = ty = 0; if (!raf) raf = requestAnimationFrame(tick); });
+    par.addEventListener('pointerleave', () => { tx = ty = 0; if (!raf) raf = requestAnimationFrame(tick); });
+  }
 }
 
 /* ───── Aparición al hacer scroll ───── */

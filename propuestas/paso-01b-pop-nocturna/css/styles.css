@@ -209,6 +209,31 @@ button,input,select,textarea{font:inherit;color:inherit}
 .astk.a2{width:36px;height:36px;left:46%;top:-3%;color:var(--honey)}
 .astk.a3{width:26px;height:26px;right:-1%;top:2%;color:var(--blue-lite)}
 @keyframes spin{to{transform:rotate(360deg)}}
+/* Móvil: el collage sube justo debajo del titular para que la primera pantalla no sea solo texto */
+@media (max-width:760px){
+  .hero-in{gap:18px}
+  .hero-copy{display:contents}
+  .hero-title{order:1;margin-top:6px}
+  .collage{order:2;max-width:400px;margin-block:4px 2px}
+  .hero .lead{order:3;margin-top:0}
+  .hero .ctas{order:4;margin-top:6px}
+}
+/* Táctil y móvil (sin mouse): las piezas llegan sueltas y se arman como el logo, después flotan.
+   Usa las propiedades translate/rotate/scale, que se suman al transform del paralaje sin pisarlo. */
+@media (hover:none), (max-width:760px){
+  .collage .par{animation:arma-in 1s cubic-bezier(.34,1.56,.64,1) var(--d,0s) backwards,flota var(--f,5s) ease-in-out calc(var(--d,0s) + 1s) infinite alternate}
+  .collage .shape-c{--ix:80px;--iy:-60px;--d:.15s;--f:6.4s}
+  .collage .shape-a{--ix:-70px;--iy:70px;--d:.2s;--f:7s}
+  .collage .s1{--ix:-90px;--iy:-30px;--d:.35s;--f:4.6s;--w:-1.5deg}
+  .collage .s2{--ix:100px;--iy:20px;--d:.45s;--f:5.2s;--w:1.5deg}
+  .collage .s3{--ix:30px;--iy:60px;--d:.55s;--f:4.2s;--w:-1deg}
+  .collage .stk{--ix:-80px;--iy:40px;--d:.7s;--f:5.8s}
+  .collage .a1{--ix:40px;--iy:40px;--d:.85s;--f:3.6s}
+  .collage .a2{--ix:0px;--iy:-50px;--d:.9s;--f:4.4s}
+  .collage .a3{--ix:40px;--iy:-30px;--d:.95s;--f:3.2s}
+}
+@keyframes arma-in{from{translate:var(--ix,0px) var(--iy,0px);scale:.55}}
+@keyframes flota{from{translate:0 0;rotate:0deg}to{translate:0 -10px;rotate:var(--w,0deg)}}
 
 .marquee{margin-top:clamp(44px,6vw,80px);border-block:1px solid rgba(255,255,255,.1);overflow:hidden;padding-block:16px;contain:paint}
 .mq-track{display:flex;width:max-content;animation:mq 40s linear infinite;will-change:transform}
