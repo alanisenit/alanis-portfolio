@@ -131,7 +131,7 @@ const I18N = {
   },
   home: {
     heroTitle: { es: 'Diseño<br>que se <span class="g">queda</span><br><span class="hand">en tu feed</span>', en: 'Design<br>that <span class="g">sticks</span><br><span class="hand">in your feed</span>' },
-    lead: { es: 'Soy Alanis Romero. Diseño redes sociales que detienen el scroll, marcas con carácter y piezas editoriales con intención, en español e inglés.', en: 'I\'m Alanis Romero. I design scroll-stopping social media, brands with character and editorial pieces with intent, in English and Spanish.' },
+    lead: { es: 'Soy Alanis, diseñadora gráfica freelance. <b>Tu marca, imposible de ignorar.</b>', en: 'I\'m Alanis, a freelance graphic designer. <b>Your brand, impossible to ignore.</b>' },
     btnWork: { es: 'Ver trabajo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>', en: 'See my work <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>' },
     btnAbout: { es: 'Sobre mí', en: 'About me' },
     badgeText: { es: 'DISPONIBLE ✶ FREELANCE ✶ DISPONIBLE ✶ FREELANCE ✶', en: 'AVAILABLE ✶ FREELANCE ✶ AVAILABLE ✶ FREELANCE ✶' },
@@ -278,7 +278,7 @@ function applyTranslations(lang) {
   const heroTitle = $('.hero-title');
   if (heroTitle) heroTitle.innerHTML = I18N.home.heroTitle[lang];
   const heroLead = $('.hero .lead');
-  if (heroLead) heroLead.textContent = I18N.home.lead[lang];
+  if (heroLead) heroLead.innerHTML = I18N.home.lead[lang];
   const btnGreen = $('.hero .btn-green');
   if (btnGreen) btnGreen.innerHTML = I18N.home.btnWork[lang];
   const btnGhost = $('.hero .btn-ghost');
