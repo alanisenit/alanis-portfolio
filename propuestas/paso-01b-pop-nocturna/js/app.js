@@ -131,7 +131,7 @@ const I18N = {
   },
   home: {
     heroTitle: { es: 'Diseño<br>que se <span class="g">queda</span><br><span class="hand">en tu feed</span>', en: 'Design<br>that <span class="g">sticks</span><br><span class="hand">in your feed</span>' },
-    lead: { es: 'Soy Alanis, diseñadora gráfica freelance. <b>Tu marca, imposible de ignorar.</b>', en: 'I\'m Alanis, a freelance graphic designer. <b>Your brand, impossible to ignore.</b>' },
+    lead: { es: 'Soy Alanis, diseñadora gráfica freelance. <b>Diseño redes sociales, marcas y piezas editoriales.</b>', en: 'I\'m Alanis, a freelance graphic designer. <b>I design social media, brands and editorial pieces.</b>' },
     btnWork: { es: 'Ver trabajo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>', en: 'See my work <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>' },
     btnAbout: { es: 'Sobre mí', en: 'About me' },
     badgeText: { es: 'DISPONIBLE ✶ FREELANCE ✶ DISPONIBLE ✶ FREELANCE ✶', en: 'AVAILABLE ✶ FREELANCE ✶ AVAILABLE ✶ FREELANCE ✶' },

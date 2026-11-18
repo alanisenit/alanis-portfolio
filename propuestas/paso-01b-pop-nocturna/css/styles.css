@@ -189,9 +189,9 @@ button,input,select,textarea{font:inherit;color:inherit}
 .hero-title{font-size:clamp(66px,10.6vw,170px);color:var(--cream);margin-top:18px}
 .hero-title .g{color:var(--green-lite)}
 .hero-title .hand{color:var(--pink);font-size:.56em;transform:rotate(-6deg) translateY(-.04em)}
-.hero .lead{margin-top:24px;font-size:clamp(18px,1.7vw,22px);max-width:34ch}
+.hero .lead{margin-top:24px;font-size:clamp(18px,1.6vw,21px);max-width:31em}
 /* Segunda línea del hero: el gancho, en crema y más fuerte */
-.hero .lead b{display:block;margin-top:4px;color:var(--cream);font-weight:700}
+.hero .lead b{display:block;margin-top:4px;color:var(--cream);font-weight:700;text-wrap:balance}
 .hero .ctas{margin-top:30px}
 .collage{position:relative;aspect-ratio:1/.95;width:100%;max-width:580px;justify-self:center}
 .par{position:absolute;transform:translate(var(--px,0px),var(--py,0px));will-change:transform}
