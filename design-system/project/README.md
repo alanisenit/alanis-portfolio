@@ -75,7 +75,16 @@ Pop Nocturna es el sistema visual de la web de Alanis Romero, diseñadora gráfi
 
 - Iconos de línea propios, retícula de 24, trazo de 2px y extremos redondeados: flecha, flecha atrás, descargar, buscar, cerrar, más, cámara, micrófono y pluma. Toman el color con `currentColor` (`pn-ico`).
 - El motivo es el asterisco de ocho brazos con trazo irregular (filtro `feTurbulence`), en el grupo Motivo y como componente Asterisk.
-- No hay logotipo todavía: el nombre se compone como "Alanis / Romero" en dos líneas con `display` a 17px, junto al asterisco `pink`.
+- El logotipo es **Enit Designs**: ver la sección Logo y el componente Logo.
+
+## Logo
+
+- El logotipo es **Enit Designs**, versión “Arma tu noche”: las letras script del logo original sobre cuatro piezas, `green` (cuadrado), `blue` (diagonal), `pink` (rectángulo) y `honey` (círculo), con letras `cream` de contorno `night` y el asterisco `blue` como punto de la i.
+- Usa la versión a color sobre `night` y sobre paneles claros; sobre fotos o fondos con mucho detalle, la de una tinta noche o blanca. Los archivos están en el grupo Logo.
+- En la barra va quieto a 58px de alto (46px en móvil); al pasar el mouse las piezas se separan apenas y el asterisco gira. En el cierre va la versión animada: las piezas flotan y se arman al entrar en pantalla, con `ease-pop`.
+- Debajo de 120px de ancho usa el monograma (la E sobre `night`), que funciona desde 16px como favicon.
+- Deja alrededor un aire igual al alto de “DESIGNS”. No cambies colores, no estires, no quites el contorno de las letras ni reemplaces las letras por una tipografía.
+- La marca es Enit Designs y la persona es Alanis Romero: su nombre sigue en títulos, `h1` y textos.
 
 ## Accesibilidad
 

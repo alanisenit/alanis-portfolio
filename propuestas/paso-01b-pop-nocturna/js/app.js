@@ -123,17 +123,11 @@ const I18N = {
     talk: { es: 'Hablemos', en: 'Let\'s talk' }
   },
   footer: {
-    title: { es: 'Creemos algo<br><span class="hand">que brille</span>', en: 'Let\'s create something<br><span class="hand">that shines</span>' },
-    card1Small: { es: 'Para marcas y empresas', en: 'For brands and companies' },
-    card1Title: { es: 'Cuéntame tu proyecto', en: 'Tell me about your project' },
-    card1Text: { es: 'Redes, branding, editorial e ilustración', en: 'Social media, branding, editorial and illustration' },
-    card2Small: { es: 'Para creadores', en: 'For creators' },
-    card2Title: { es: 'Hagamos una colab', en: 'Let\'s collaborate' },
-    card2Text: { es: 'Fotografía, ilustración, música o podcast', en: 'Photography, illustration, music or podcasts' },
-    legal: { es: '© 2026 Alanis Romero · Diseñadora gráfica freelance · Lima, Perú', en: '© 2026 Alanis Romero · Freelance graphic designer · Lima, Peru' }
+    title: { es: 'Creemos algo<br><span class="hand">que brille</span>', en: 'Let\'s make<br><span class="hand">something shine</span>' },
+    btn: { es: 'Hablemos <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>', en: 'Let\'s talk <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>' },
+    legal: { es: '© 2026 Enit Designs · Alanis Romero · Diseñadora gráfica freelance · Lima, Perú', en: '© 2026 Enit Designs · Alanis Romero · Freelance graphic designer · Lima, Peru' }
   },
   home: {
-    eyebrow: { es: '<span class="dot"></span>Diseñadora gráfica freelance · Lima, Perú', en: '<span class="dot"></span>Freelance graphic designer · Lima, Peru' },
     heroTitle: { es: 'Diseño<br>que se <span class="g">queda</span><br><span class="hand">en tu feed</span>', en: 'Design<br>that <span class="g">sticks</span><br><span class="hand">in your feed</span>' },
     lead: { es: 'Soy Alanis Romero. Diseño redes sociales que detienen el scroll, marcas con carácter y piezas editoriales con intención, en español e inglés.', en: 'I\'m Alanis Romero. I design scroll-stopping social media, brands with character and editorial pieces with intent, in English and Spanish.' },
     btnWork: { es: 'Ver trabajo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>', en: 'See my work <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>' },
@@ -142,17 +136,17 @@ const I18N = {
     featuredTitle: { es: 'Trabajo <span class="hand c-blue">destacado</span>', en: 'Featured <span class="hand c-blue">work</span>' },
     featuredBtn: { es: 'Ver los 12 proyectos <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>', en: 'See all 12 projects <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>' },
     servicesTitle: { es: 'Servicios', en: 'Services' },
-    servicesSub: { es: 'Para marcas, agencias y creadores. Cada proyecto empieza con una conversación sobre qué necesitas comunicar y a quién.', en: 'For brands, agencies and creators. Every project starts with a conversation about what you need to say and to whom.' },
+    servicesSub: { es: 'Para marcas, agencias y creadores.', en: 'For brands, agencies and creators.' },
     svcRedesTitle: { es: 'Redes sociales', en: 'Social media' },
-    svcRedesDesc: { es: 'Posts, carruseles e historias con coherencia de marca, pensados para detener el scroll.', en: 'Posts, carousels and stories that stay on brand and stop the scroll.' },
+    svcRedesDo: { es: ['Posts', 'Carruseles', 'Historias'], en: ['Posts', 'Carousels', 'Stories'] },
     svcBrandingTitle: { es: 'Branding', en: 'Brand identity' },
-    svcBrandingDesc: { es: 'Logotipo, paleta, tipografías y manual para que todo se vea de la misma familia.', en: 'Logo, palette, typography and guidelines so everything looks like one family.' },
+    svcBrandingDo: { es: ['Logo', 'Paleta', 'Manual'], en: ['Logo', 'Palette', 'Guidelines'] },
     svcEdTitle: { es: 'Diseño editorial', en: 'Editorial design' },
-    svcEdDesc: { es: 'Revistas, libros, carteles y documentos con jerarquía clara y lectura cómoda.', en: 'Magazines, books, posters and documents with clear hierarchy and easy reading.' },
+    svcEdDo: { es: ['Revistas', 'Libros', 'Documentos'], en: ['Magazines', 'Books', 'Documents'] },
     svcIlustTitle: { es: 'Ilustración', en: 'Illustration' },
-    svcIlustDesc: { es: 'Ilustraciones para campañas, portadas y piezas que necesitan voz propia.', en: 'Illustrations for campaigns, covers and pieces that need a voice of their own.' },
+    svcIlustDo: { es: ['Campañas', 'Portadas', 'Carteles'], en: ['Campaigns', 'Covers', 'Posters'] },
     svcVideoTitle: { es: 'Video corto', en: 'Short video' },
-    svcVideoDesc: { es: 'Reels y TikToks a partir de contenido largo, con subtítulos y textos para cada red.', en: 'Reels and TikToks from long-form content, with captions and copy for each platform.' },
+    svcVideoDo: { es: ['Reels', 'TikToks', 'Subtítulos'], en: ['Reels', 'TikToks', 'Captions'] },
     aboutTitle: { es: 'Hola, soy Alanis.<span>Diseñadora gráfica y creativa digital</span>', en: 'Hi, I\'m Alanis.<span>Graphic designer and digital creative</span>' },
     aboutLead: { es: 'Me formé en BYU-Idaho y he trabajado en agencia, educación y contenido digital. Me gusta que cada pieza comunique claro y tenga personalidad.', en: 'I studied at BYU-Idaho and have designed for agencies, schools, academies and podcasts. I want every piece to be clear and full of personality.' },
     stat1: { es: 'Piezas y videos', en: 'Pieces and videos' },
@@ -265,32 +259,18 @@ function applyTranslations(lang) {
   }
   const ctaOut = $('.cta-out');
   if (ctaOut) {
-    ctaOut.innerHTML = `<svg viewBox="0 0 100 100" aria-hidden="true"><use href="#ast"/></svg>${I18N.nav.talk[lang]}`;
+    ctaOut.textContent = I18N.nav.talk[lang];
   }
 
   // Footer
   const footTitle = $('.foot-title');
   if (footTitle) footTitle.innerHTML = I18N.footer.title[lang];
-  const footCards = $$('.foot-card');
-  if (footCards.length >= 2) {
-    const c1 = footCards[0];
-    const s1 = $('small', c1), b1 = $('b', c1), sp1 = $('span', c1);
-    if (s1) s1.textContent = I18N.footer.card1Small[lang];
-    if (b1) b1.textContent = I18N.footer.card1Title[lang];
-    if (sp1) sp1.textContent = I18N.footer.card1Text[lang];
-
-    const c2 = footCards[1];
-    const s2 = $('small', c2), b2 = $('b', c2), sp2 = $('span', c2);
-    if (s2) s2.textContent = I18N.footer.card2Small[lang];
-    if (b2) b2.textContent = I18N.footer.card2Title[lang];
-    if (sp2) sp2.textContent = I18N.footer.card2Text[lang];
-  }
+  const footBtn = $('.foot-btn');
+  if (footBtn) footBtn.innerHTML = I18N.footer.btn[lang];
   const legal = $('.foot-bottom > span:last-child');
   if (legal) legal.textContent = I18N.footer.legal[lang];
 
   // 1. Home Page Specific
-  const heroEyebrow = $('.hero .eyebrow');
-  if (heroEyebrow) heroEyebrow.innerHTML = I18N.home.eyebrow[lang];
   const heroTitle = $('.hero-title');
   if (heroTitle) heroTitle.innerHTML = I18N.home.heroTitle[lang];
   const heroLead = $('.hero .lead');
@@ -319,19 +299,16 @@ function applyTranslations(lang) {
   const svcLinks = $$('.svc li a');
   if (svcLinks.length >= 5) {
     const sMap = [
-      { t: I18N.home.svcRedesTitle[lang], d: I18N.home.svcRedesDesc[lang], tag: '#' + CATS.redes[lang].short },
-      { t: I18N.home.svcBrandingTitle[lang], d: I18N.home.svcBrandingDesc[lang], tag: '#' + CATS.branding[lang].short },
-      { t: I18N.home.svcEdTitle[lang], d: I18N.home.svcEdDesc[lang], tag: '#' + CATS.editorial[lang].short },
-      { t: I18N.home.svcIlustTitle[lang], d: I18N.home.svcIlustDesc[lang], tag: '#' + CATS.ilustracion[lang].short },
-      { t: I18N.home.svcVideoTitle[lang], d: I18N.home.svcVideoDesc[lang], tag: '#' + CATS.video[lang].short }
+      { t: I18N.home.svcRedesTitle[lang], d: I18N.home.svcRedesDo[lang] },
+      { t: I18N.home.svcBrandingTitle[lang], d: I18N.home.svcBrandingDo[lang] },
+      { t: I18N.home.svcEdTitle[lang], d: I18N.home.svcEdDo[lang] },
+      { t: I18N.home.svcIlustTitle[lang], d: I18N.home.svcIlustDo[lang] },
+      { t: I18N.home.svcVideoTitle[lang], d: I18N.home.svcVideoDo[lang] }
     ];
     svcLinks.forEach((a, i) => {
-      const tagEl = a.querySelector('.tag');
       const bEl = a.querySelector('b');
-      const pEl = a.querySelector('p');
-      if (tagEl) tagEl.textContent = sMap[i].tag;
       if (bEl) bEl.textContent = sMap[i].t;
-      if (pEl) pEl.textContent = sMap[i].d;
+      a.querySelectorAll('.svc-do span').forEach((el, k) => { if (sMap[i].d[k]) el.textContent = sMap[i].d[k]; });
     });
   }
 
@@ -633,7 +610,7 @@ if (par && !reduce) {
 /* ───── Aparición al hacer scroll ───── */
 motionReady.then(() => {
   if (!M || reduce) return;
-  $$('[data-reveal] > *, .card, .svc li, .stat, .foot-card, .idea, .timeline li').forEach(el => {
+  $$('[data-reveal] > *, .card, .svc li, .stat, .idea, .timeline li').forEach(el => {
     if (el.getBoundingClientRect().top < innerHeight + 40) return;
     M.inView(el, (a) => {
       const t = a instanceof Element ? a : a.target;
@@ -692,4 +669,12 @@ if (cvBtn) cvBtn.addEventListener('click', e => {
 // Inicializar traducción si está guardada en 'en'
 if (currentLang === 'en') {
   applyTranslations('en');
+}
+
+/* ───── Logo Enit Designs ─────
+   Cierre: el bucle es solo CSS; aquí se pausa cuando el logo no está en pantalla. */
+const enitLogos = $$('.enit-anim');
+if (enitLogos.length && 'IntersectionObserver' in window) {
+  const io = new IntersectionObserver(entries => entries.forEach(e => e.target.classList.toggle('paused', !e.isIntersecting)), { rootMargin: '120px' });
+  enitLogos.forEach(el => io.observe(el));
 }
