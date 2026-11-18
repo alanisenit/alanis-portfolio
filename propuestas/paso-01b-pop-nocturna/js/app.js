@@ -120,7 +120,9 @@ const I18N = {
     services: { es: 'Servicios', en: 'Services' },
     about: { es: 'Sobre mí', en: 'About' },
     contact: { es: 'Contacto', en: 'Contact' },
-    talk: { es: 'Hablemos', en: 'Let\'s talk' }
+    talk: { es: 'Hablemos', en: 'Let\'s talk' },
+    menuOpen: { es: 'Abrir menú', en: 'Open menu' },
+    menuClose: { es: 'Cerrar menú', en: 'Close menu' }
   },
   footer: {
     title: { es: 'Creemos algo<br><span class="hand">que brille</span>', en: 'Let\'s make<br><span class="hand">something shine</span>' },
@@ -148,7 +150,7 @@ const I18N = {
     svcVideoTitle: { es: 'Video corto', en: 'Short video' },
     svcVideoDo: { es: ['Reels', 'TikToks', 'Subtítulos'], en: ['Reels', 'TikToks', 'Captions'] },
     aboutTitle: { es: 'Hola, soy Alanis.<span>Diseñadora gráfica y creativa digital</span>', en: 'Hi, I\'m Alanis.<span>Graphic designer and digital creative</span>' },
-    aboutLead: { es: 'Me formé en BYU-Idaho y he trabajado en agencia, educación y contenido digital. Me gusta que cada pieza comunique claro y tenga personalidad.', en: 'I studied at BYU-Idaho and have designed for agencies, schools, academies and podcasts. I want every piece to be clear and full of personality.' },
+    aboutLead: { es: 'Formada en BYU-Idaho, con experiencia en agencia, educación y contenido digital.', en: 'Trained at BYU-Idaho, with experience in agencies, education and digital content.' },
     stat1: { es: 'Piezas y videos', en: 'Pieces and videos' },
     stat2: { es: 'Marcas y clientes', en: 'Brands and clients' },
     stat3: { es: 'Países', en: 'Countries' },
@@ -257,6 +259,8 @@ function applyTranslations(lang) {
     navA[2].textContent = I18N.nav.about[lang];
     navA[3].textContent = I18N.nav.contact[lang];
   }
+  const burgerBtn = $('.burger');
+  if (burgerBtn) burgerBtn.setAttribute('aria-label', I18N.nav[burgerBtn.getAttribute('aria-expanded') === 'true' ? 'menuClose' : 'menuOpen'][lang]);
   const ctaOut = $('.cta-out');
   if (ctaOut) {
     ctaOut.textContent = I18N.nav.talk[lang];
@@ -677,4 +681,21 @@ const enitLogos = $$('.enit-anim');
 if (enitLogos.length && 'IntersectionObserver' in window) {
   const io = new IntersectionObserver(entries => entries.forEach(e => e.target.classList.toggle('paused', !e.isIntersecting)), { rootMargin: '120px' });
   enitLogos.forEach(el => io.observe(el));
+}
+
+/* ───── Menú hamburguesa (móvil) ───── */
+const burger = $('.burger');
+const menu = $('#menu');
+if (burger && menu) {
+  const setMenu = open => {
+    burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', I18N.nav[open ? 'menuClose' : 'menuOpen'][currentLang]);
+    document.body.classList.toggle('menu-open', open);
+  };
+  burger.addEventListener('click', () => setMenu(burger.getAttribute('aria-expanded') !== 'true'));
+  menu.addEventListener('click', e => { if (e.target.closest('a')) setMenu(false); });
+  addEventListener('keydown', e => {
+    if (e.key === 'Escape' && burger.getAttribute('aria-expanded') === 'true') { setMenu(false); burger.focus(); }
+  });
+  matchMedia('(min-width: 761px)').addEventListener('change', e => { if (e.matches) setMenu(false); });
 }
