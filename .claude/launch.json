@@ -48,6 +48,14 @@
         "propuestas/paso-03-contenido"
       ],
       "port": 5176
+    },
+    {
+      "name": "sitio",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "scripts/dev.mjs"
+      ],
+      "port": 3000
     }
   ]
 }

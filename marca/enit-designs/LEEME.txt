@@ -1,0 +1,70 @@
+ENIT DESIGNS · KIT DEL LOGO
+Versión "Arma tu noche", con los colores del sitio (Pop Nocturna).
+Noviembre 2026
+
+
+QUÉ HAY EN CADA CARPETA
+
+svg/   Vectores: se pueden ampliar sin perder calidad. Para la web, Illustrator, Figma o Canva.
+       - enit-designs-color.svg ............ Logo principal a color, fondo transparente.
+       - enit-designs-una-tinta-noche.svg .. Una sola tinta (azul noche) para fondos claros, sellos o bordados.
+       - enit-designs-una-tinta-blanca.svg . Una sola tinta blanca para fondos oscuros o fotos.
+       - enit-designs-monograma.svg ........ La "E" sola, para espacios pequeños.
+       - enit-designs-animado.svg .......... Versión que se arma sola (las piezas encajan). Solo se mueve en navegadores y en la web.
+
+pdf/   Vectores para imprenta.
+       - enit-designs-color.pdf
+       - enit-designs-una-tinta-noche.pdf (pensado para imprimir sobre blanco)
+
+png/   Fondo transparente, listos para documentos, presentaciones o redes.
+       - Logo a color en 4000, 2000, 1000 y 500 px de ancho.
+       - Una tinta noche y una tinta blanca en 2000 px.
+       - Monograma en 1024 y 512 px.
+
+jpg/   Logo sobre fondo, 2400 x 1600 px.
+       - enit-designs-fondo-noche.jpg
+       - enit-designs-fondo-claro.jpg
+
+redes/ Fotos de perfil de 1080 x 1080 px (Instagram, Behance, LinkedIn, Upwork, Fiverr).
+       Ya tienen aire para que no se corten en los recortes circulares.
+       - avatar-logo-1080.png ........ Logo completo.
+       - avatar-monograma-1080.png ... Solo la "E" (se lee mejor en tamaños chicos).
+
+web/   Íconos para el sitio: favicon.ico (16, 32 y 48 px), favicon.svg,
+       apple-touch-icon.png (180 px), icon-192.png e icon-512.png.
+
+
+COLORES
+
+  Verde         #1F9A72   RGB 31, 154, 114
+  Azul          #2D62C4   RGB 45, 98, 196
+  Rosa          #FF7EA6   RGB 255, 126, 166
+  Miel          #FFC94D   RGB 255, 201, 77
+  Noche         #0A0F20   RGB 10, 15, 32     (contorno de las letras y tinta única)
+  Crema         #F2F4F1   RGB 242, 244, 241  (relleno de las letras)
+  Verde claro   #7FE0B5   RGB 127, 224, 181  (asterisco del monograma)
+
+Para imprenta, convertir a CMYK con el perfil de la imprenta y pedir una prueba de color:
+el rosa y el verde pierden brillo en papel.
+
+
+CÓMO USARLO
+
+- Espacio libre: dejar alrededor del logo, como mínimo, el alto de la palabra "DESIGNS".
+- Tamaño mínimo del logo completo: 120 px de ancho en pantalla o 30 mm impreso.
+  Más chico que eso, usar el monograma (funciona desde 16 px).
+- Sobre fotos o fondos con mucho detalle, usar la versión de una tinta blanca o noche.
+
+
+QUÉ NO HACER
+
+- No cambiar los colores de las piezas ni de las letras.
+- No estirar, deformar ni girar el logo (las piezas solo se mueven en la versión animada).
+- No quitar el contorno noche de las letras: es lo que las hace legibles sobre cualquier color.
+- No reemplazar las letras por otra tipografía ni volver a escribirlas.
+
+
+NOTA
+
+Las letras se pasaron a vector desde el PNG original del logo. Si existe el archivo
+original (.ai, .psd o la tipografía usada), se pueden reemplazar para ganar todavía más fidelidad.

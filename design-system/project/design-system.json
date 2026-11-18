@@ -10,6 +10,7 @@
   "libraries": [],
   "sections": {},
   "groups": [
+    "Logo",
     "Motivo",
     "Trabajo",
     "Retrato"
@@ -108,6 +109,56 @@
           "type": "image/jpeg"
         }
       }
+    },
+    "Logo": {
+      "name": "Logo",
+      "tile": "l",
+      "order": [
+        "enit-designs-color.svg",
+        "enit-designs-una-tinta-noche.svg",
+        "enit-designs-una-tinta-blanca.svg",
+        "enit-designs-monograma.svg",
+        "enit-designs-color-1000.png",
+        "enit-designs-monograma-512.png"
+      ],
+      "files": {
+        "enit-designs-color.svg": {
+          "name": "enit-designs-color.svg",
+          "blob": "393c794419d99c7a975a30c3e2563073",
+          "size": 13780,
+          "type": "image/svg+xml"
+        },
+        "enit-designs-una-tinta-noche.svg": {
+          "name": "enit-designs-una-tinta-noche.svg",
+          "blob": "9ec046020721024b79d502632db3aa44",
+          "size": 13783,
+          "type": "image/svg+xml"
+        },
+        "enit-designs-una-tinta-blanca.svg": {
+          "name": "enit-designs-una-tinta-blanca.svg",
+          "blob": "61df0202acb4b26fb688363d63ebe54e",
+          "size": 13785,
+          "type": "image/svg+xml"
+        },
+        "enit-designs-monograma.svg": {
+          "name": "enit-designs-monograma.svg",
+          "blob": "e0450219c2a4ae17bcf9ec8f518fc549",
+          "size": 13635,
+          "type": "image/svg+xml"
+        },
+        "enit-designs-color-1000.png": {
+          "name": "enit-designs-color-1000.png",
+          "blob": "06d5e6410bbb4920dc337d2286e1909b",
+          "size": 76865,
+          "type": "image/png"
+        },
+        "enit-designs-monograma-512.png": {
+          "name": "enit-designs-monograma-512.png",
+          "blob": "01dfa3e76abb4ed709104805fb281aac",
+          "size": 29663,
+          "type": "image/png"
+        }
+      }
     }
   },
   "blobs": {},
@@ -118,7 +169,7 @@
   "lastChange": {
     "by": "Claude",
     "via": "Claude Code",
-    "at": "2026-10-16T18:31:31Z",
-    "note": "Primera versión de Pop Nocturna a partir del prototipo aprobado en el Paso 1."
+    "at": "2026-11-18T18:05:51Z",
+    "note": "Logo Enit Designs (versión Arma tu noche): grupo Logo, componente Logo y sección en el README."
   }
 }
