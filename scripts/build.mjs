@@ -29,18 +29,7 @@ console.log('📄 Copiando sitio principal (Pop Nocturna)...');
 cpSync(popNocturna, dist, { recursive: true });
 
 // 4. Copiar herramientas complementarias
-const contenido = resolve(root, 'propuestas/paso-03-contenido');
-if (existsSync(contenido)) {
-  console.log('📄 Copiando panel de contenido y SEO...');
-  cpSync(contenido, resolve(dist, 'contenido'), { recursive: true });
-}
-
-const direccion = resolve(root, 'propuestas/paso-01-direccion');
-if (existsSync(direccion)) {
-  console.log('📄 Copiando comparativa de direcciones...');
-  cpSync(direccion, resolve(dist, 'direccion'), { recursive: true });
-}
-
+// Las propuestas (comparativa de direcciones y panel de contenido) ya se aprobaron y no se publican.
 const designSystem = resolve(root, 'design-system');
 if (existsSync(designSystem)) {
   console.log('📄 Copiando sistema de diseño...');
